@@ -1,0 +1,6 @@
+image: TEORESI_planimetria_JOSE.png
+resolution: 0.1012
+origin: [-43.11, -68.413, 0.0]
+occupied_thresh: 0.3
+free_thresh: 0.2
+negate: 0

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/riccardochiaretti/alba_v2_hmi/build/hmi_node/hmi_node_server" "/home/riccardochiaretti/alba_v2_hmi/build/hmi_node/hmi_node_client" "TARGETS" "hmi_node_server" "hmi_node_client" "DESTINATION" "lib/hmi_node")

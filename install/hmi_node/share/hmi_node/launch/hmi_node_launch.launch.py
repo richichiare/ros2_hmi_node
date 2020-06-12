@@ -1,0 +1,1 @@
+/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/launch/hmi_node_launch.launch.py

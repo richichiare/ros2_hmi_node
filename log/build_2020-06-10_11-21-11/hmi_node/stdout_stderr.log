@@ -1,0 +1,43 @@
+[0.127s] [35m[1mScanning dependencies of target hmi_node[0m
+[0.161s] [ 50%] [32mBuilding CXX object CMakeFiles/hmi_node.dir/src/main.cpp.o[0m
+[0.900s] In file included from [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/main.cpp:2:0[m[K:
+[0.900s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:36:23:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K-Wwrite-strings[m[K]
+[0.900s]          char *hello = [01;35m[K"Hello from client"[m[K;
+[0.900s]                        [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.901s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[0.901s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/main.cpp:11:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kh[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[0.901s]    EthernetPrimitives *[01;35m[Kh[m[K = new EthernetPrimitives();
+[0.901s]                        [01;35m[K^[m[K
+[0.901s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/main.cpp:4:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.902s]  int main(int [01;35m[Kargc[m[K, char * argv[])
+[0.902s]               [01;35m[K^~~~[m[K
+[0.902s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/main.cpp:4:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.902s]  int main(int argc, char * argv[[01;35m[K][m[K)
+[0.902s]                                 [01;35m[K^[m[K
+[1.002s] In file included from [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/main.cpp:2:0[m[K:
+[1.002s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:[m[K In member function ‘[01m[Kint EthernetPrimitives::init_server_socket()[m[K’:
+[1.002s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:76:9:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+[1.002s]          [01;35m[K}[m[K
+[1.002s]          [01;35m[K^[m[K
+[1.040s] [100%] [32m[1mLinking CXX executable hmi_node[0m
+[1.133s] [100%] Built target hmi_node
+[1.322s] [100%] Built target hmi_node
+[1.358s] [36mInstall the project...[0m
+[1.374s] -- Install configuration: ""
+[1.374s] -- Execute custom install script
+[1.375s] -- Up-to-date symlink: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/lib/hmi_node/hmi_node
+[1.375s] -- Up-to-date symlink: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/ament_index/resource_index/package_run_dependencies/hmi_node
+[1.375s] -- Up-to-date symlink: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/ament_index/resource_index/parent_prefix_path/hmi_node
+[1.376s] -- Up-to-date symlink: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/hmi_node/environment/ament_prefix_path.sh
+[1.376s] -- Up-to-date symlink: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/hmi_node/environment/ament_prefix_path.dsv
+[1.376s] -- Up-to-date symlink: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/hmi_node/environment/path.sh
+[1.376s] -- Up-to-date symlink: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/hmi_node/environment/path.dsv
+[1.377s] -- Up-to-date symlink: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/hmi_node/local_setup.bash
+[1.377s] -- Up-to-date symlink: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/hmi_node/local_setup.sh
+[1.377s] -- Up-to-date symlink: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/hmi_node/local_setup.zsh
+[1.377s] -- Up-to-date symlink: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/hmi_node/local_setup.dsv
+[1.377s] -- Symlinking: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/hmi_node/package.dsv
+[1.393s] -- Up-to-date symlink: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/ament_index/resource_index/packages/hmi_node
+[1.394s] -- Up-to-date symlink: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/hmi_node/cmake/hmi_nodeConfig.cmake
+[1.394s] -- Up-to-date symlink: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/hmi_node/cmake/hmi_nodeConfig-version.cmake
+[1.394s] -- Up-to-date symlink: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/hmi_node/package.xml

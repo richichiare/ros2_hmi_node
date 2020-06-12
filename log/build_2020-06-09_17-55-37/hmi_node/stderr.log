@@ -1,0 +1,32 @@
+[3.240s] In file included from [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/main.cpp:2:0[m[K:
+[3.240s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:26:23:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K-Wwrite-strings[m[K]
+[3.241s]          char *hello = [01;35m[K"Hello from client"[m[K;
+[3.241s]                        [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.242s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/main.cpp:7:23:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KResourcePublisher[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+[3.242s]      ResourcePublisher([01;31m[K)[m[K
+[3.242s]                        [01;31m[K^[m[K
+[3.243s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/main.cpp:[m[K In member function ‘[01m[Kint HmiNode::ResourcePublisher()[m[K’:
+[3.243s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/main.cpp:8:7:[m[K [01;31m[Kerror: [m[Konly constructors take member initializers
+[3.243s]      : [01;31m[KNode[m[K("hmi_node")
+[3.243s]        [01;31m[K^~~~[m[K
+[3.243s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/main.cpp:11:5:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[3.243s]      [01;35m[K}[m[K
+[3.243s]      [01;35m[K^[m[K
+[3.243s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[3.244s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/main.cpp:21:25:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kh[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.244s]      EthernetPrimitives *[01;35m[Kh[m[K = new EthernetPrimitives();
+[3.244s]                          [01;35m[K^[m[K
+[3.244s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/main.cpp:14:16:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.244s]    int main(int [01;35m[Kargc[m[K, char * argv[])
+[3.244s]                 [01;35m[K^~~~[m[K
+[3.244s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/main.cpp:14:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.244s]    int main(int argc, char * argv[[01;35m[K][m[K)
+[3.244s]                                   [01;35m[K^[m[K
+[3.370s] In file included from [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/main.cpp:2:0[m[K:
+[3.370s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:[m[K In member function ‘[01m[Kint EthernetPrimitives::open_socket_client()[m[K’:
+[3.371s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:70:9:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+[3.371s]          [01;35m[K}[m[K
+[3.371s]          [01;35m[K^[m[K
+[3.379s] make[2]: *** [CMakeFiles/hmi_node.dir/src/main.cpp.o] Error 1
+[3.380s] make[1]: *** [CMakeFiles/hmi_node.dir/all] Error 2
+[3.380s] make: *** [all] Error 2

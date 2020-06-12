@@ -1,0 +1,486 @@
+[0.037s] Invoking command in '/home/riccardochiaretti/alba_v2_hmi/build/hmi_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/riccardochiaretti/ros2_eloquent/install/ros2bag:/home/riccardochiaretti/ros2_eloquent/install/tracetools_launch:/home/riccardochiaretti/ros2_eloquent/install/topic_monitor:/home/riccardochiaretti/ros2_eloquent/install/examples_tf2_py:/home/riccardochiaretti/ros2_eloquent/install/sros2:/home/riccardochiaretti/ros2_eloquent/install/rqt_topic:/home/riccardochiaretti/ros2_eloquent/install/rqt_reconfigure:/home/riccardochiaretti/ros2_eloquent/install/rqt_action:/home/riccardochiaretti/ros2_eloquent/install/rqt:/home/riccardochiaretti/ros2_eloquent/install/rqt_graph:/home/riccardochiaretti/ros2_eloquent/install/rqt_gui_py:/home/riccardochiaretti/ros2_eloquent/install/rqt_gui:/home/riccardochiaretti/ros2_eloquent/install/ros2trace:/home/riccardochiaretti/ros2_eloquent/install/ros2topic:/home/riccardochiaretti/ros2_eloquent/install/ros2test:/home/riccardochiaretti/ros2_eloquent/install/ros2srv:/home/riccardochiaretti/ros2_eloquent/install/ros2component:/home/riccardochiaretti/ros2_eloquent/install/ros2param:/home/riccardochiaretti/ros2_eloquent/install/ros2lifecycle:/home/riccardochiaretti/ros2_eloquent/install/ros2service:/home/riccardochiaretti/ros2_eloquent/install/ros2run:/home/riccardochiaretti/ros2_eloquent/install/ros2launch:/home/riccardochiaretti/ros2_eloquent/install/ros2pkg:/home/riccardochiaretti/ros2_eloquent/install/ros2node:/home/riccardochiaretti/ros2_eloquent/install/ros2multicast:/home/riccardochiaretti/ros2_eloquent/install/ros2msg:/home/riccardochiaretti/ros2_eloquent/install/ros2interface:/home/riccardochiaretti/ros2_eloquent/install/ros2doctor:/home/riccardochiaretti/ros2_eloquent/install/ros2action:/home/riccardochiaretti/ros2_eloquent/install/ros2cli:/home/riccardochiaretti/ros2_eloquent/install/quality_of_service_demo_py:/home/riccardochiaretti/ros2_eloquent/install/launch_testing_ros:/home/riccardochiaretti/ros2_eloquent/install/launch_ros:/home/riccardochiaretti/ros2_eloquent/install/examples_rclpy_minimal_subscriber:/home/riccardochiaretti/ros2_eloquent/install/examples_rclpy_minimal_service:/home/riccardochiaretti/ros2_eloquent/install/examples_rclpy_minimal_publisher:/home/riccardochiaretti/ros2_eloquent/install/examples_rclpy_minimal_client:/home/riccardochiaretti/ros2_eloquent/install/examples_rclpy_minimal_action_server:/home/riccardochiaretti/ros2_eloquent/install/examples_rclpy_minimal_action_client:/home/riccardochiaretti/ros2_eloquent/install/examples_rclpy_executors:/home/riccardochiaretti/ros2_eloquent/install/demo_nodes_py:/home/riccardochiaretti/ros2_eloquent/install/action_tutorials_py:/home/riccardochiaretti/ros2_eloquent/install/ament_uncrustify:/home/riccardochiaretti/ros2_eloquent/install/tracetools_trace:/home/riccardochiaretti/ros2_eloquent/install/tracetools_read:/home/riccardochiaretti/ros2_eloquent/install/test_launch_ros:/home/riccardochiaretti/ros2_eloquent/install/rosidl_runtime_py:/home/riccardochiaretti/ros2_eloquent/install/launch_yaml:/home/riccardochiaretti/ros2_eloquent/install/launch_xml:/home/riccardochiaretti/ros2_eloquent/install/launch_testing:/home/riccardochiaretti/ros2_eloquent/install/launch:/home/riccardochiaretti/ros2_eloquent/install/osrf_pycommon:/home/riccardochiaretti/ros2_eloquent/install/domain_coordinator:/home/riccardochiaretti/ros2_eloquent/install/ament_xmllint:/home/riccardochiaretti/ros2_eloquent/install/ament_pyflakes:/home/riccardochiaretti/ros2_eloquent/install/ament_pep8:/home/riccardochiaretti/ros2_eloquent/install/ament_pep257:/home/riccardochiaretti/ros2_eloquent/install/ament_pclint:/home/riccardochiaretti/ros2_eloquent/install/ament_package:/home/riccardochiaretti/ros2_eloquent/install/ament_mypy:/home/riccardochiaretti/ros2_eloquent/install/ament_lint_cmake:/home/riccardochiaretti/ros2_eloquent/install/ament_flake8:/home/riccardochiaretti/ros2_eloquent/install/ament_copyright:/home/riccardochiaretti/ros2_eloquent/install/ament_lint:/home/riccardochiaretti/ros2_eloquent/install/ament_index_python:/home/riccardochiaretti/ros2_eloquent/install/ament_cpplint:/home/riccardochiaretti/ros2_eloquent/install/ament_cppcheck:/home/riccardochiaretti/ros2_eloquent/install/ament_clang_tidy:/home/riccardochiaretti/ros2_eloquent/install/ament_clang_format /usr/bin/cmake --build /home/riccardochiaretti/alba_v2_hmi/build/hmi_node -- -j12 -l12
+[0.122s] [35m[1mScanning dependencies of target hmi_node[0m
+[0.157s] [ 50%] [32mBuilding CXX object CMakeFiles/hmi_node.dir/src/main.cpp.o[0m
+[0.890s] In file included from [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/main.cpp:2:0[m[K:
+[0.890s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:17:57:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K{[m[K’ token
+[0.890s]  class EthernetPrimitives : CommunicationPrimitives, Node[01;31m[K{[m[K
+[0.890s]                                                          [01;31m[K^[m[K
+[0.890s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:35:23:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K-Wwrite-strings[m[K]
+[0.891s]          char *hello = [01;35m[K"Hello from client"[m[K;
+[0.891s]                        [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.892s] In file included from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/service.hpp:33:0[m[K,
+[0.892s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/callback_group.hpp:25[m[K,
+[0.892s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/any_executable.hpp:20[m[K,
+[0.892s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/memory_strategy.hpp:24[m[K,
+[0.892s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/memory_strategies.hpp:18[m[K,
+[0.892s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/executor.hpp:33[m[K,
+[0.893s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[0.893s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/executors.hpp:21[m[K,
+[0.893s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/rclcpp.hpp:145[m[K,
+[0.893s]                  from [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/main.cpp:1[m[K:
+[0.893s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:[m[K In member function ‘[01m[Kvoid EthernetPrimitives::get_socket_fd()[m[K’:
+[0.893s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:40:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass EthernetPrimitives[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[0.893s]                  RCLCPP_INFO(this->[01;31m[Kg[m[Ket_logger(), "socket");
+[0.894s]                                    [01;31m[K^[m[K
+[0.894s] [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/logging.hpp:537:86:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCLCPP_INFO[m[K’
+[0.894s]        ::std::is_same<typename std::remove_cv<typename std::remove_reference<decltype([01;36m[Klogger[m[K)>::type>::type, \
+[0.894s]                                                                                       [01;36m[K^~~~~~[m[K
+[0.894s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:40:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass EthernetPrimitives[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[0.894s]                  RCLCPP_INFO(this->[01;31m[Kg[m[Ket_logger(), "socket");
+[0.894s]                                    [01;31m[K^[m[K
+[0.894s] [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/logging.hpp:537:86:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCLCPP_INFO[m[K’
+[0.894s]        ::std::is_same<typename std::remove_cv<typename std::remove_reference<decltype([01;36m[Klogger[m[K)>::type>::type, \
+[0.894s]                                                                                       [01;36m[K^~~~~~[m[K
+[0.894s] [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/logging.hpp:537:93:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.894s]        ::std::is_same<typename std::remove_cv<typename std::remove_reference<decltype(logger)[01;31m[K>[m[K::type>::type, \
+[0.894s]                                                                                              [01;31m[K^[m[K
+[0.894s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:40:17:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[0.894s]                  [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "socket");
+[0.895s]                  [01;36m[K^~~~~~~~~~~[m[K
+[0.895s] [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/logging.hpp:537:100:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.895s]        ::std::is_same<typename std::remove_cv<typename std::remove_reference<decltype(logger)>::type[01;31m[K>[m[K::type, \
+[0.895s]                                                                                                     [01;31m[K^[m[K
+[0.895s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:40:17:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[0.895s]                  [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "socket");
+[0.895s]                  [01;36m[K^~~~~~~~~~~[m[K
+[0.895s] [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/logging.hpp:538:32:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.895s]        typename ::rclcpp::Logger[01;31m[K>[m[K::value, \
+[0.895s]                                 [01;31m[K^[m[K
+[0.895s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:40:17:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[0.895s]                  [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "socket");
+[0.895s]                  [01;36m[K^~~~~~~~~~~[m[K
+[0.895s] In file included from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/client.hpp:39:0[m[K,
+[0.895s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/callback_group.hpp:23[m[K,
+[0.895s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/any_executable.hpp:20[m[K,
+[0.895s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/memory_strategy.hpp:24[m[K,
+[0.896s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/memory_strategies.hpp:18[m[K,
+[0.896s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/executor.hpp:33[m[K,
+[0.896s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[0.896s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/executors.hpp:21[m[K,
+[0.896s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/rclcpp.hpp:145[m[K,
+[0.896s]                  from [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/main.cpp:1[m[K:
+[0.896s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:40:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass EthernetPrimitives[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[0.896s]                  RCLCPP_INFO(this->[01;31m[Kg[m[Ket_logger(), "socket");
+[0.896s]                                    [01;31m[K^[m[K
+[0.896s] [01m[K/home/riccardochiaretti/ros2_eloquent/install/rcutils/include/rcutils/logging_macros.h:70:47:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+[0.896s]      if (rcutils_logging_logger_is_enabled_for([01;36m[Kname[m[K, severity)) { \
+[0.896s]                                                [01;36m[K^~~~[m[K
+[0.896s] [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/logging.hpp:541:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+[0.896s]      [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+[0.896s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.896s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:40:17:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[0.896s]                  [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "socket");
+[0.897s]                  [01;36m[K^~~~~~~~~~~[m[K
+[0.897s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:40:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass EthernetPrimitives[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[0.897s]                  RCLCPP_INFO(this->[01;31m[Kg[m[Ket_logger(), "socket");
+[0.897s]                                    [01;31m[K^[m[K
+[0.897s] [01m[K/home/riccardochiaretti/ros2_eloquent/install/rcutils/include/rcutils/logging_macros.h:72:58:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+[0.897s]        rcutils_log(&__rcutils_logging_location, severity, [01;36m[Kname[m[K, __VA_ARGS__); \
+[0.897s]                                                           [01;36m[K^~~~[m[K
+[0.897s] [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/logging.hpp:541:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+[0.897s]      [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+[0.897s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.897s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:40:17:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[0.897s]                  [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "socket");
+[0.897s]                  [01;36m[K^~~~~~~~~~~[m[K
+[0.897s] In file included from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/service.hpp:33:0[m[K,
+[0.897s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/callback_group.hpp:25[m[K,
+[0.897s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/any_executable.hpp:20[m[K,
+[0.897s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/memory_strategy.hpp:24[m[K,
+[0.898s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/memory_strategies.hpp:18[m[K,
+[0.898s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/executor.hpp:33[m[K,
+[0.898s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[0.898s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/executors.hpp:21[m[K,
+[0.898s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/rclcpp.hpp:145[m[K,
+[0.898s]                  from [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/main.cpp:1[m[K:
+[0.898s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:45:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass EthernetPrimitives[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[0.898s]                  RCLCPP_INFO(this->[01;31m[Kg[m[Ket_logger(), "setsockopt");
+[0.898s]                                    [01;31m[K^[m[K
+[0.898s] [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/logging.hpp:537:86:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCLCPP_INFO[m[K’
+[0.898s]        ::std::is_same<typename std::remove_cv<typename std::remove_reference<decltype([01;36m[Klogger[m[K)>::type>::type, \
+[0.898s]                                                                                       [01;36m[K^~~~~~[m[K
+[0.898s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:45:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass EthernetPrimitives[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[0.898s]                  RCLCPP_INFO(this->[01;31m[Kg[m[Ket_logger(), "setsockopt");
+[0.898s]                                    [01;31m[K^[m[K
+[0.898s] [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/logging.hpp:537:86:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCLCPP_INFO[m[K’
+[0.899s]        ::std::is_same<typename std::remove_cv<typename std::remove_reference<decltype([01;36m[Klogger[m[K)>::type>::type, \
+[0.899s]                                                                                       [01;36m[K^~~~~~[m[K
+[0.899s] [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/logging.hpp:537:93:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.899s]        ::std::is_same<typename std::remove_cv<typename std::remove_reference<decltype(logger)[01;31m[K>[m[K::type>::type, \
+[0.899s]                                                                                              [01;31m[K^[m[K
+[0.899s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:45:17:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[0.899s]                  [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "setsockopt");
+[0.899s]                  [01;36m[K^~~~~~~~~~~[m[K
+[0.899s] [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/logging.hpp:537:100:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.899s]        ::std::is_same<typename std::remove_cv<typename std::remove_reference<decltype(logger)>::type[01;31m[K>[m[K::type, \
+[0.899s]                                                                                                     [01;31m[K^[m[K
+[0.899s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:45:17:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[0.899s]                  [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "setsockopt");
+[0.899s]                  [01;36m[K^~~~~~~~~~~[m[K
+[0.899s] [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/logging.hpp:538:32:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.899s]        typename ::rclcpp::Logger[01;31m[K>[m[K::value, \
+[0.899s]                                 [01;31m[K^[m[K
+[0.900s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:45:17:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[0.900s]                  [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "setsockopt");
+[0.900s]                  [01;36m[K^~~~~~~~~~~[m[K
+[0.900s] In file included from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/client.hpp:39:0[m[K,
+[0.900s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/callback_group.hpp:23[m[K,
+[0.900s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/any_executable.hpp:20[m[K,
+[0.900s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/memory_strategy.hpp:24[m[K,
+[0.900s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/memory_strategies.hpp:18[m[K,
+[0.900s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/executor.hpp:33[m[K,
+[0.900s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[0.900s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/executors.hpp:21[m[K,
+[0.900s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/rclcpp.hpp:145[m[K,
+[0.900s]                  from [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/main.cpp:1[m[K:
+[0.900s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:45:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass EthernetPrimitives[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[0.900s]                  RCLCPP_INFO(this->[01;31m[Kg[m[Ket_logger(), "setsockopt");
+[0.900s]                                    [01;31m[K^[m[K
+[0.901s] [01m[K/home/riccardochiaretti/ros2_eloquent/install/rcutils/include/rcutils/logging_macros.h:70:47:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+[0.901s]      if (rcutils_logging_logger_is_enabled_for([01;36m[Kname[m[K, severity)) { \
+[0.901s]                                                [01;36m[K^~~~[m[K
+[0.901s] [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/logging.hpp:541:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+[0.901s]      [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+[0.901s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.901s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:45:17:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[0.901s]                  [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "setsockopt");
+[0.901s]                  [01;36m[K^~~~~~~~~~~[m[K
+[0.901s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:45:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass EthernetPrimitives[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[0.901s]                  RCLCPP_INFO(this->[01;31m[Kg[m[Ket_logger(), "setsockopt");
+[0.901s]                                    [01;31m[K^[m[K
+[0.901s] [01m[K/home/riccardochiaretti/ros2_eloquent/install/rcutils/include/rcutils/logging_macros.h:72:58:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+[0.901s]        rcutils_log(&__rcutils_logging_location, severity, [01;36m[Kname[m[K, __VA_ARGS__); \
+[0.901s]                                                           [01;36m[K^~~~[m[K
+[0.901s] [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/logging.hpp:541:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+[0.901s]      [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+[0.902s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.902s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:45:17:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[0.902s]                  [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "setsockopt");
+[0.902s]                  [01;36m[K^~~~~~~~~~~[m[K
+[0.902s] In file included from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/service.hpp:33:0[m[K,
+[0.902s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/callback_group.hpp:25[m[K,
+[0.902s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/any_executable.hpp:20[m[K,
+[0.902s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/memory_strategy.hpp:24[m[K,
+[0.902s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/memory_strategies.hpp:18[m[K,
+[0.902s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/executor.hpp:33[m[K,
+[0.902s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[0.902s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/executors.hpp:21[m[K,
+[0.902s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/rclcpp.hpp:145[m[K,
+[0.902s]                  from [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/main.cpp:1[m[K:
+[0.902s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:[m[K In member function ‘[01m[Kvoid EthernetPrimitives::bind_socket_to_address()[m[K’:
+[0.902s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:57:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass EthernetPrimitives[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[0.902s]                  RCLCPP_INFO(this->[01;31m[Kg[m[Ket_logger(), "bind");
+[0.903s]                                    [01;31m[K^[m[K
+[0.903s] [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/logging.hpp:537:86:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCLCPP_INFO[m[K’
+[0.903s]        ::std::is_same<typename std::remove_cv<typename std::remove_reference<decltype([01;36m[Klogger[m[K)>::type>::type, \
+[0.903s]                                                                                       [01;36m[K^~~~~~[m[K
+[0.903s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:57:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass EthernetPrimitives[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[0.903s]                  RCLCPP_INFO(this->[01;31m[Kg[m[Ket_logger(), "bind");
+[0.903s]                                    [01;31m[K^[m[K
+[0.903s] [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/logging.hpp:537:86:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCLCPP_INFO[m[K’
+[0.903s]        ::std::is_same<typename std::remove_cv<typename std::remove_reference<decltype([01;36m[Klogger[m[K)>::type>::type, \
+[0.903s]                                                                                       [01;36m[K^~~~~~[m[K
+[0.903s] [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/logging.hpp:537:93:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.903s]        ::std::is_same<typename std::remove_cv<typename std::remove_reference<decltype(logger)[01;31m[K>[m[K::type>::type, \
+[0.903s]                                                                                              [01;31m[K^[m[K
+[0.903s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:57:17:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[0.903s]                  [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "bind");
+[0.903s]                  [01;36m[K^~~~~~~~~~~[m[K
+[0.903s] [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/logging.hpp:537:100:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.904s]        ::std::is_same<typename std::remove_cv<typename std::remove_reference<decltype(logger)>::type[01;31m[K>[m[K::type, \
+[0.904s]                                                                                                     [01;31m[K^[m[K
+[0.904s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:57:17:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[0.904s]                  [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "bind");
+[0.904s]                  [01;36m[K^~~~~~~~~~~[m[K
+[0.904s] [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/logging.hpp:538:32:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.904s]        typename ::rclcpp::Logger[01;31m[K>[m[K::value, \
+[0.904s]                                 [01;31m[K^[m[K
+[0.904s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:57:17:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[0.904s]                  [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "bind");
+[0.904s]                  [01;36m[K^~~~~~~~~~~[m[K
+[0.904s] In file included from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/client.hpp:39:0[m[K,
+[0.904s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/callback_group.hpp:23[m[K,
+[0.904s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/any_executable.hpp:20[m[K,
+[0.904s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/memory_strategy.hpp:24[m[K,
+[0.904s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/memory_strategies.hpp:18[m[K,
+[0.905s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/executor.hpp:33[m[K,
+[0.905s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[0.905s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/executors.hpp:21[m[K,
+[0.905s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/rclcpp.hpp:145[m[K,
+[0.905s]                  from [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/main.cpp:1[m[K:
+[0.905s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:57:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass EthernetPrimitives[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[0.905s]                  RCLCPP_INFO(this->[01;31m[Kg[m[Ket_logger(), "bind");
+[0.905s]                                    [01;31m[K^[m[K
+[0.905s] [01m[K/home/riccardochiaretti/ros2_eloquent/install/rcutils/include/rcutils/logging_macros.h:70:47:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+[0.905s]      if (rcutils_logging_logger_is_enabled_for([01;36m[Kname[m[K, severity)) { \
+[0.905s]                                                [01;36m[K^~~~[m[K
+[0.905s] [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/logging.hpp:541:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+[0.905s]      [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+[0.905s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.905s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:57:17:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[0.906s]                  [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "bind");
+[0.906s]                  [01;36m[K^~~~~~~~~~~[m[K
+[0.906s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:57:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass EthernetPrimitives[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[0.906s]                  RCLCPP_INFO(this->[01;31m[Kg[m[Ket_logger(), "bind");
+[0.906s]                                    [01;31m[K^[m[K
+[0.906s] [01m[K/home/riccardochiaretti/ros2_eloquent/install/rcutils/include/rcutils/logging_macros.h:72:58:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+[0.906s]        rcutils_log(&__rcutils_logging_location, severity, [01;36m[Kname[m[K, __VA_ARGS__); \
+[0.906s]                                                           [01;36m[K^~~~[m[K
+[0.906s] [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/logging.hpp:541:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+[0.906s]      [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+[0.906s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.906s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:57:17:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[0.906s]                  [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "bind");
+[0.906s]                  [01;36m[K^~~~~~~~~~~[m[K
+[0.906s] In file included from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/service.hpp:33:0[m[K,
+[0.906s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/callback_group.hpp:25[m[K,
+[0.906s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/any_executable.hpp:20[m[K,
+[0.907s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/memory_strategy.hpp:24[m[K,
+[0.907s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/memory_strategies.hpp:18[m[K,
+[0.907s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/executor.hpp:33[m[K,
+[0.907s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[0.907s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/executors.hpp:21[m[K,
+[0.907s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/rclcpp.hpp:145[m[K,
+[0.907s]                  from [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/main.cpp:1[m[K:
+[0.907s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:[m[K In member function ‘[01m[Kint EthernetPrimitives::init_server_socket()[m[K’:
+[0.907s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:68:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass EthernetPrimitives[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[0.907s]                  RCLCPP_INFO(this->[01;31m[Kg[m[Ket_logger(), "listen");
+[0.907s]                                    [01;31m[K^[m[K
+[0.907s] [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/logging.hpp:537:86:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCLCPP_INFO[m[K’
+[0.907s]        ::std::is_same<typename std::remove_cv<typename std::remove_reference<decltype([01;36m[Klogger[m[K)>::type>::type, \
+[0.907s]                                                                                       [01;36m[K^~~~~~[m[K
+[0.907s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:68:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass EthernetPrimitives[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[0.907s]                  RCLCPP_INFO(this->[01;31m[Kg[m[Ket_logger(), "listen");
+[0.908s]                                    [01;31m[K^[m[K
+[0.908s] [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/logging.hpp:537:86:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCLCPP_INFO[m[K’
+[0.908s]        ::std::is_same<typename std::remove_cv<typename std::remove_reference<decltype([01;36m[Klogger[m[K)>::type>::type, \
+[0.908s]                                                                                       [01;36m[K^~~~~~[m[K
+[0.908s] [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/logging.hpp:537:93:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.908s]        ::std::is_same<typename std::remove_cv<typename std::remove_reference<decltype(logger)[01;31m[K>[m[K::type>::type, \
+[0.908s]                                                                                              [01;31m[K^[m[K
+[0.908s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:68:17:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[0.908s]                  [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "listen");
+[0.908s]                  [01;36m[K^~~~~~~~~~~[m[K
+[0.908s] [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/logging.hpp:537:100:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.908s]        ::std::is_same<typename std::remove_cv<typename std::remove_reference<decltype(logger)>::type[01;31m[K>[m[K::type, \
+[0.908s]                                                                                                     [01;31m[K^[m[K
+[0.908s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:68:17:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[0.908s]                  [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "listen");
+[0.908s]                  [01;36m[K^~~~~~~~~~~[m[K
+[0.909s] [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/logging.hpp:538:32:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.909s]        typename ::rclcpp::Logger[01;31m[K>[m[K::value, \
+[0.909s]                                 [01;31m[K^[m[K
+[0.909s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:68:17:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[0.909s]                  [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "listen");
+[0.909s]                  [01;36m[K^~~~~~~~~~~[m[K
+[0.909s] In file included from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/client.hpp:39:0[m[K,
+[0.909s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/callback_group.hpp:23[m[K,
+[0.909s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/any_executable.hpp:20[m[K,
+[0.909s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/memory_strategy.hpp:24[m[K,
+[0.909s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/memory_strategies.hpp:18[m[K,
+[0.909s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/executor.hpp:33[m[K,
+[0.909s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[0.909s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/executors.hpp:21[m[K,
+[0.909s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/rclcpp.hpp:145[m[K,
+[0.909s]                  from [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/main.cpp:1[m[K:
+[0.909s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:68:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass EthernetPrimitives[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[0.909s]                  RCLCPP_INFO(this->[01;31m[Kg[m[Ket_logger(), "listen");
+[0.910s]                                    [01;31m[K^[m[K
+[0.910s] [01m[K/home/riccardochiaretti/ros2_eloquent/install/rcutils/include/rcutils/logging_macros.h:70:47:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+[0.910s]      if (rcutils_logging_logger_is_enabled_for([01;36m[Kname[m[K, severity)) { \
+[0.910s]                                                [01;36m[K^~~~[m[K
+[0.910s] [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/logging.hpp:541:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+[0.910s]      [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+[0.910s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.910s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:68:17:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[0.910s]                  [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "listen");
+[0.910s]                  [01;36m[K^~~~~~~~~~~[m[K
+[0.910s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:68:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass EthernetPrimitives[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[0.910s]                  RCLCPP_INFO(this->[01;31m[Kg[m[Ket_logger(), "listen");
+[0.910s]                                    [01;31m[K^[m[K
+[0.910s] [01m[K/home/riccardochiaretti/ros2_eloquent/install/rcutils/include/rcutils/logging_macros.h:72:58:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+[0.910s]        rcutils_log(&__rcutils_logging_location, severity, [01;36m[Kname[m[K, __VA_ARGS__); \
+[0.910s]                                                           [01;36m[K^~~~[m[K
+[0.910s] [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/logging.hpp:541:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+[0.911s]      [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+[0.911s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.911s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:68:17:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[0.911s]                  [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "listen");
+[0.911s]                  [01;36m[K^~~~~~~~~~~[m[K
+[0.911s] In file included from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/service.hpp:33:0[m[K,
+[0.911s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/callback_group.hpp:25[m[K,
+[0.911s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/any_executable.hpp:20[m[K,
+[0.911s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/memory_strategy.hpp:24[m[K,
+[0.911s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/memory_strategies.hpp:18[m[K,
+[0.911s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/executor.hpp:33[m[K,
+[0.911s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[0.911s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/executors.hpp:21[m[K,
+[0.911s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/rclcpp.hpp:145[m[K,
+[0.911s]                  from [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/main.cpp:1[m[K:
+[0.911s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:[m[K In member function ‘[01m[Kvoid EthernetPrimitives::read_from_server_socket()[m[K’:
+[0.911s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:80:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass EthernetPrimitives[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[0.912s]                      RCLCPP_INFO(this->[01;31m[Kg[m[Ket_logger(), "setsockopt");recv
+[0.912s]                                        [01;31m[K^[m[K
+[0.912s] [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/logging.hpp:537:86:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCLCPP_INFO[m[K’
+[0.912s]        ::std::is_same<typename std::remove_cv<typename std::remove_reference<decltype([01;36m[Klogger[m[K)>::type>::type, \
+[0.912s]                                                                                       [01;36m[K^~~~~~[m[K
+[0.912s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:80:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass EthernetPrimitives[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[0.912s]                      RCLCPP_INFO(this->[01;31m[Kg[m[Ket_logger(), "setsockopt");recv
+[0.912s]                                        [01;31m[K^[m[K
+[0.912s] [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/logging.hpp:537:86:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCLCPP_INFO[m[K’
+[0.912s]        ::std::is_same<typename std::remove_cv<typename std::remove_reference<decltype([01;36m[Klogger[m[K)>::type>::type, \
+[0.912s]                                                                                       [01;36m[K^~~~~~[m[K
+[0.912s] [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/logging.hpp:537:93:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.912s]        ::std::is_same<typename std::remove_cv<typename std::remove_reference<decltype(logger)[01;31m[K>[m[K::type>::type, \
+[0.912s]                                                                                              [01;31m[K^[m[K
+[0.912s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:80:21:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[0.912s]                      [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "setsockopt");recv
+[0.913s]                      [01;36m[K^~~~~~~~~~~[m[K
+[0.913s] [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/logging.hpp:537:100:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.913s]        ::std::is_same<typename std::remove_cv<typename std::remove_reference<decltype(logger)>::type[01;31m[K>[m[K::type, \
+[0.913s]                                                                                                     [01;31m[K^[m[K
+[0.913s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:80:21:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[0.913s]                      [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "setsockopt");recv
+[0.913s]                      [01;36m[K^~~~~~~~~~~[m[K
+[0.913s] [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/logging.hpp:538:32:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.913s]        typename ::rclcpp::Logger[01;31m[K>[m[K::value, \
+[0.913s]                                 [01;31m[K^[m[K
+[0.913s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:80:21:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[0.913s]                      [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "setsockopt");recv
+[0.913s]                      [01;36m[K^~~~~~~~~~~[m[K
+[0.913s] In file included from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/client.hpp:39:0[m[K,
+[0.913s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/callback_group.hpp:23[m[K,
+[0.913s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/any_executable.hpp:20[m[K,
+[0.913s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/memory_strategy.hpp:24[m[K,
+[0.914s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/memory_strategies.hpp:18[m[K,
+[0.914s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/executor.hpp:33[m[K,
+[0.914s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[0.914s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/executors.hpp:21[m[K,
+[0.914s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/rclcpp.hpp:145[m[K,
+[0.914s]                  from [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/main.cpp:1[m[K:
+[0.914s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:80:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass EthernetPrimitives[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[0.914s]                      RCLCPP_INFO(this->[01;31m[Kg[m[Ket_logger(), "setsockopt");recv
+[0.914s]                                        [01;31m[K^[m[K
+[0.914s] [01m[K/home/riccardochiaretti/ros2_eloquent/install/rcutils/include/rcutils/logging_macros.h:70:47:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+[0.914s]      if (rcutils_logging_logger_is_enabled_for([01;36m[Kname[m[K, severity)) { \
+[0.914s]                                                [01;36m[K^~~~[m[K
+[0.914s] [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/logging.hpp:541:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+[0.914s]      [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+[0.914s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.914s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:80:21:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[0.914s]                      [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "setsockopt");recv
+[0.914s]                      [01;36m[K^~~~~~~~~~~[m[K
+[0.915s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:80:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass EthernetPrimitives[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[0.915s]                      RCLCPP_INFO(this->[01;31m[Kg[m[Ket_logger(), "setsockopt");recv
+[0.915s]                                        [01;31m[K^[m[K
+[0.915s] [01m[K/home/riccardochiaretti/ros2_eloquent/install/rcutils/include/rcutils/logging_macros.h:72:58:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+[0.915s]        rcutils_log(&__rcutils_logging_location, severity, [01;36m[Kname[m[K, __VA_ARGS__); \
+[0.915s]                                                           [01;36m[K^~~~[m[K
+[0.915s] [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/logging.hpp:541:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+[0.915s]      [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+[0.915s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.915s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:80:21:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[0.915s]                      [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "setsockopt");recv
+[0.915s]                      [01;36m[K^~~~~~~~~~~[m[K
+[0.915s] In file included from [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/main.cpp:2:0[m[K:
+[0.915s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:81:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[0.915s]              [01;31m[K}[m[Kwhile (numBytesRecv > 0);
+[0.915s]              [01;31m[K^[m[K
+[0.915s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:81:13:[m[K [01;35m[Kwarning: [m[Kstatement is a reference, not call, to function ‘[01m[Krecv[m[K’ [[01;35m[K-Waddress[m[K]
+[0.916s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:81:13:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K-Wunused-value[m[K]
+[0.916s] In file included from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/service.hpp:33:0[m[K,
+[0.916s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/callback_group.hpp:25[m[K,
+[0.916s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/any_executable.hpp:20[m[K,
+[0.916s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/memory_strategy.hpp:24[m[K,
+[0.916s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/memory_strategies.hpp:18[m[K,
+[0.916s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/executor.hpp:33[m[K,
+[0.916s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[0.916s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/executors.hpp:21[m[K,
+[0.916s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/rclcpp.hpp:145[m[K,
+[0.916s]                  from [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/main.cpp:1[m[K:
+[0.916s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:82:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass EthernetPrimitives[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[0.916s]              RCLCPP_INFO(this->[01;31m[Kg[m[Ket_logger(), "%f %f", m.x, m.y);
+[0.916s]                                [01;31m[K^[m[K
+[0.916s] [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/logging.hpp:537:86:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCLCPP_INFO[m[K’
+[0.916s]        ::std::is_same<typename std::remove_cv<typename std::remove_reference<decltype([01;36m[Klogger[m[K)>::type>::type, \
+[0.916s]                                                                                       [01;36m[K^~~~~~[m[K
+[0.917s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:82:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass EthernetPrimitives[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[0.917s]              RCLCPP_INFO(this->[01;31m[Kg[m[Ket_logger(), "%f %f", m.x, m.y);
+[0.917s]                                [01;31m[K^[m[K
+[0.917s] [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/logging.hpp:537:86:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCLCPP_INFO[m[K’
+[0.917s]        ::std::is_same<typename std::remove_cv<typename std::remove_reference<decltype([01;36m[Klogger[m[K)>::type>::type, \
+[0.917s]                                                                                       [01;36m[K^~~~~~[m[K
+[0.917s] [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/logging.hpp:537:93:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.917s]        ::std::is_same<typename std::remove_cv<typename std::remove_reference<decltype(logger)[01;31m[K>[m[K::type>::type, \
+[0.917s]                                                                                              [01;31m[K^[m[K
+[0.917s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:82:13:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[0.917s]              [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "%f %f", m.x, m.y);
+[0.917s]              [01;36m[K^~~~~~~~~~~[m[K
+[0.917s] [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/logging.hpp:537:100:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.917s]        ::std::is_same<typename std::remove_cv<typename std::remove_reference<decltype(logger)>::type[01;31m[K>[m[K::type, \
+[0.917s]                                                                                                     [01;31m[K^[m[K
+[0.917s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:82:13:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[0.917s]              [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "%f %f", m.x, m.y);
+[0.918s]              [01;36m[K^~~~~~~~~~~[m[K
+[0.918s] [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/logging.hpp:538:32:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.918s]        typename ::rclcpp::Logger[01;31m[K>[m[K::value, \
+[0.918s]                                 [01;31m[K^[m[K
+[0.918s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:82:13:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[0.918s]              [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "%f %f", m.x, m.y);
+[0.918s]              [01;36m[K^~~~~~~~~~~[m[K
+[0.918s] In file included from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/client.hpp:39:0[m[K,
+[0.918s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/callback_group.hpp:23[m[K,
+[0.918s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/any_executable.hpp:20[m[K,
+[0.918s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/memory_strategy.hpp:24[m[K,
+[0.918s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/memory_strategies.hpp:18[m[K,
+[0.918s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/executor.hpp:33[m[K,
+[0.918s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[0.918s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/executors.hpp:21[m[K,
+[0.918s]                  from [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/rclcpp.hpp:145[m[K,
+[0.918s]                  from [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/main.cpp:1[m[K:
+[0.918s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:82:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass EthernetPrimitives[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[0.919s]              RCLCPP_INFO(this->[01;31m[Kg[m[Ket_logger(), "%f %f", m.x, m.y);
+[0.919s]                                [01;31m[K^[m[K
+[0.919s] [01m[K/home/riccardochiaretti/ros2_eloquent/install/rcutils/include/rcutils/logging_macros.h:70:47:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+[0.919s]      if (rcutils_logging_logger_is_enabled_for([01;36m[Kname[m[K, severity)) { \
+[0.919s]                                                [01;36m[K^~~~[m[K
+[0.919s] [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/logging.hpp:541:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+[0.919s]      [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+[0.919s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.919s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:82:13:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[0.919s]              [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "%f %f", m.x, m.y);
+[0.919s]              [01;36m[K^~~~~~~~~~~[m[K
+[0.919s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:82:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass EthernetPrimitives[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[0.919s]              RCLCPP_INFO(this->[01;31m[Kg[m[Ket_logger(), "%f %f", m.x, m.y);
+[0.919s]                                [01;31m[K^[m[K
+[0.919s] [01m[K/home/riccardochiaretti/ros2_eloquent/install/rcutils/include/rcutils/logging_macros.h:72:58:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+[0.919s]        rcutils_log(&__rcutils_logging_location, severity, [01;36m[Kname[m[K, __VA_ARGS__); \
+[0.919s]                                                           [01;36m[K^~~~[m[K
+[0.920s] [01m[K/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include/rclcpp/logging.hpp:541:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+[0.920s]      [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+[0.920s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.920s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:82:13:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[0.920s]              [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "%f %f", m.x, m.y);
+[0.920s]              [01;36m[K^~~~~~~~~~~[m[K
+[0.920s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[0.920s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/main.cpp:11:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kh[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[0.920s]    EthernetPrimitives *[01;35m[Kh[m[K = new EthernetPrimitives();
+[0.920s]                        [01;35m[K^[m[K
+[0.920s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/main.cpp:4:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.920s]  int main(int [01;35m[Kargc[m[K, char * argv[])
+[0.920s]               [01;35m[K^~~~[m[K
+[0.920s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/main.cpp:4:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.920s]  int main(int argc, char * argv[[01;35m[K][m[K)
+[0.920s]                                 [01;35m[K^[m[K
+[0.998s] In file included from [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/main.cpp:2:0[m[K:
+[0.998s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:[m[K In member function ‘[01m[Kint EthernetPrimitives::init_server_socket()[m[K’:
+[0.998s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:71:9:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+[0.999s]          [01;35m[K}[m[K
+[0.999s]          [01;35m[K^[m[K
+[1.006s] CMakeFiles/hmi_node.dir/build.make:62: recipe for target 'CMakeFiles/hmi_node.dir/src/main.cpp.o' failed
+[1.007s] make[2]: *** [CMakeFiles/hmi_node.dir/src/main.cpp.o] Error 1
+[1.007s] make[1]: *** [CMakeFiles/hmi_node.dir/all] Error 2
+[1.007s] make: *** [all] Error 2
+[1.007s] CMakeFiles/Makefile2:131: recipe for target 'CMakeFiles/hmi_node.dir/all' failed
+[1.007s] Makefile:140: recipe for target 'all' failed
+[1.009s] Invoked command in '/home/riccardochiaretti/alba_v2_hmi/build/hmi_node' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/riccardochiaretti/ros2_eloquent/install/ros2bag:/home/riccardochiaretti/ros2_eloquent/install/tracetools_launch:/home/riccardochiaretti/ros2_eloquent/install/topic_monitor:/home/riccardochiaretti/ros2_eloquent/install/examples_tf2_py:/home/riccardochiaretti/ros2_eloquent/install/sros2:/home/riccardochiaretti/ros2_eloquent/install/rqt_topic:/home/riccardochiaretti/ros2_eloquent/install/rqt_reconfigure:/home/riccardochiaretti/ros2_eloquent/install/rqt_action:/home/riccardochiaretti/ros2_eloquent/install/rqt:/home/riccardochiaretti/ros2_eloquent/install/rqt_graph:/home/riccardochiaretti/ros2_eloquent/install/rqt_gui_py:/home/riccardochiaretti/ros2_eloquent/install/rqt_gui:/home/riccardochiaretti/ros2_eloquent/install/ros2trace:/home/riccardochiaretti/ros2_eloquent/install/ros2topic:/home/riccardochiaretti/ros2_eloquent/install/ros2test:/home/riccardochiaretti/ros2_eloquent/install/ros2srv:/home/riccardochiaretti/ros2_eloquent/install/ros2component:/home/riccardochiaretti/ros2_eloquent/install/ros2param:/home/riccardochiaretti/ros2_eloquent/install/ros2lifecycle:/home/riccardochiaretti/ros2_eloquent/install/ros2service:/home/riccardochiaretti/ros2_eloquent/install/ros2run:/home/riccardochiaretti/ros2_eloquent/install/ros2launch:/home/riccardochiaretti/ros2_eloquent/install/ros2pkg:/home/riccardochiaretti/ros2_eloquent/install/ros2node:/home/riccardochiaretti/ros2_eloquent/install/ros2multicast:/home/riccardochiaretti/ros2_eloquent/install/ros2msg:/home/riccardochiaretti/ros2_eloquent/install/ros2interface:/home/riccardochiaretti/ros2_eloquent/install/ros2doctor:/home/riccardochiaretti/ros2_eloquent/install/ros2action:/home/riccardochiaretti/ros2_eloquent/install/ros2cli:/home/riccardochiaretti/ros2_eloquent/install/quality_of_service_demo_py:/home/riccardochiaretti/ros2_eloquent/install/launch_testing_ros:/home/riccardochiaretti/ros2_eloquent/install/launch_ros:/home/riccardochiaretti/ros2_eloquent/install/examples_rclpy_minimal_subscriber:/home/riccardochiaretti/ros2_eloquent/install/examples_rclpy_minimal_service:/home/riccardochiaretti/ros2_eloquent/install/examples_rclpy_minimal_publisher:/home/riccardochiaretti/ros2_eloquent/install/examples_rclpy_minimal_client:/home/riccardochiaretti/ros2_eloquent/install/examples_rclpy_minimal_action_server:/home/riccardochiaretti/ros2_eloquent/install/examples_rclpy_minimal_action_client:/home/riccardochiaretti/ros2_eloquent/install/examples_rclpy_executors:/home/riccardochiaretti/ros2_eloquent/install/demo_nodes_py:/home/riccardochiaretti/ros2_eloquent/install/action_tutorials_py:/home/riccardochiaretti/ros2_eloquent/install/ament_uncrustify:/home/riccardochiaretti/ros2_eloquent/install/tracetools_trace:/home/riccardochiaretti/ros2_eloquent/install/tracetools_read:/home/riccardochiaretti/ros2_eloquent/install/test_launch_ros:/home/riccardochiaretti/ros2_eloquent/install/rosidl_runtime_py:/home/riccardochiaretti/ros2_eloquent/install/launch_yaml:/home/riccardochiaretti/ros2_eloquent/install/launch_xml:/home/riccardochiaretti/ros2_eloquent/install/launch_testing:/home/riccardochiaretti/ros2_eloquent/install/launch:/home/riccardochiaretti/ros2_eloquent/install/osrf_pycommon:/home/riccardochiaretti/ros2_eloquent/install/domain_coordinator:/home/riccardochiaretti/ros2_eloquent/install/ament_xmllint:/home/riccardochiaretti/ros2_eloquent/install/ament_pyflakes:/home/riccardochiaretti/ros2_eloquent/install/ament_pep8:/home/riccardochiaretti/ros2_eloquent/install/ament_pep257:/home/riccardochiaretti/ros2_eloquent/install/ament_pclint:/home/riccardochiaretti/ros2_eloquent/install/ament_package:/home/riccardochiaretti/ros2_eloquent/install/ament_mypy:/home/riccardochiaretti/ros2_eloquent/install/ament_lint_cmake:/home/riccardochiaretti/ros2_eloquent/install/ament_flake8:/home/riccardochiaretti/ros2_eloquent/install/ament_copyright:/home/riccardochiaretti/ros2_eloquent/install/ament_lint:/home/riccardochiaretti/ros2_eloquent/install/ament_index_python:/home/riccardochiaretti/ros2_eloquent/install/ament_cpplint:/home/riccardochiaretti/ros2_eloquent/install/ament_cppcheck:/home/riccardochiaretti/ros2_eloquent/install/ament_clang_tidy:/home/riccardochiaretti/ros2_eloquent/install/ament_clang_format /usr/bin/cmake --build /home/riccardochiaretti/alba_v2_hmi/build/hmi_node -- -j12 -l12

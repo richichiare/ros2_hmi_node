@@ -1,0 +1,21 @@
+[0.140s] [100%] Built target hmi_node
+[0.329s] [100%] Built target hmi_node
+[0.369s] [36mInstall the project...[0m
+[0.387s] -- Install configuration: ""
+[0.388s] -- Execute custom install script
+[0.388s] -- Up-to-date symlink: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/lib/hmi_node/hmi_node
+[0.388s] -- Up-to-date symlink: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/ament_index/resource_index/package_run_dependencies/hmi_node
+[0.389s] -- Up-to-date symlink: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/ament_index/resource_index/parent_prefix_path/hmi_node
+[0.389s] -- Up-to-date symlink: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/hmi_node/environment/ament_prefix_path.sh
+[0.389s] -- Up-to-date symlink: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/hmi_node/environment/ament_prefix_path.dsv
+[0.390s] -- Up-to-date symlink: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/hmi_node/environment/path.sh
+[0.390s] -- Up-to-date symlink: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/hmi_node/environment/path.dsv
+[0.390s] -- Up-to-date symlink: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/hmi_node/local_setup.bash
+[0.390s] -- Up-to-date symlink: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/hmi_node/local_setup.sh
+[0.391s] -- Up-to-date symlink: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/hmi_node/local_setup.zsh
+[0.391s] -- Up-to-date symlink: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/hmi_node/local_setup.dsv
+[0.391s] -- Symlinking: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/hmi_node/package.dsv
+[0.407s] -- Up-to-date symlink: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/ament_index/resource_index/packages/hmi_node
+[0.408s] -- Up-to-date symlink: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/hmi_node/cmake/hmi_nodeConfig.cmake
+[0.408s] -- Up-to-date symlink: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/hmi_node/cmake/hmi_nodeConfig-version.cmake
+[0.408s] -- Up-to-date symlink: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/hmi_node/package.xml

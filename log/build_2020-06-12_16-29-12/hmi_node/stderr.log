@@ -1,0 +1,18 @@
+[1.041s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.041s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/main.cpp:7:25:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kh[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.041s]      EthernetPrimitives *[01;35m[Kh[m[K = new EthernetPrimitives();
+[1.041s]                          [01;35m[K^[m[K
+[1.340s] CMakeFiles/hmi_node_client.dir/src/client.cpp.o: In function `CommunicationPrimitives::CommunicationPrimitives()':
+[1.340s] client.cpp:(.text._ZN23CommunicationPrimitivesC2Ev[_ZN23CommunicationPrimitivesC5Ev]+0xb): undefined reference to `vtable for CommunicationPrimitives'
+[1.340s] CMakeFiles/hmi_node_client.dir/src/client.cpp.o:(.data.rel.ro._ZTI6Client[_ZTI6Client]+0x28): undefined reference to `typeinfo for CommunicationPrimitives'
+[1.340s] collect2: error: ld returned 1 exit status
+[1.341s] make[2]: *** [hmi_node_client] Error 1
+[1.341s] make[1]: *** [CMakeFiles/hmi_node_client.dir/all] Error 2
+[1.341s] make[1]: *** Waiting for unfinished jobs....
+[2.428s] CMakeFiles/hmi_node_server.dir/src/EthernetPrimitives.cpp.o: In function `CommunicationPrimitives::get_socket_fd_()':
+[2.428s] EthernetPrimitives.cpp:(.text+0x1b4): multiple definition of `CommunicationPrimitives::get_socket_fd_()'
+[2.428s] CMakeFiles/hmi_node_server.dir/src/main.cpp.o:main.cpp:(.text+0xa6): first defined here
+[2.429s] collect2: error: ld returned 1 exit status
+[2.430s] make[2]: *** [hmi_node_server] Error 1
+[2.431s] make[1]: *** [CMakeFiles/hmi_node_server.dir/all] Error 2
+[2.431s] make: *** [all] Error 2

@@ -1,0 +1,34 @@
+[0.245s] -- The C compiler identification is GNU 7.5.0
+[0.367s] -- The CXX compiler identification is GNU 7.5.0
+[0.382s] -- Check for working C compiler: /usr/bin/cc
+[0.509s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.510s] -- Detecting C compiler ABI info
+[0.645s] -- Detecting C compiler ABI info - done
+[0.652s] -- Detecting C compile features
+[1.017s] -- Detecting C compile features - done
+[1.021s] -- Check for working CXX compiler: /usr/bin/c++
+[1.166s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.167s] -- Detecting CXX compiler ABI info
+[1.307s] -- Detecting CXX compiler ABI info - done
+[1.312s] -- Detecting CXX compile features
+[1.864s] -- Detecting CXX compile features - done
+[1.898s] -- Found ament_cmake: 0.8.2 (/home/riccardochiaretti/ros2_eloquent/install/ament_cmake/share/ament_cmake/cmake)
+[2.322s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[2.322s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.941s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.159s] -- Found rclcpp: 0.8.4 (/home/riccardochiaretti/ros2_eloquent/install/rclcpp/share/rclcpp/cmake)
+[3.366s] -- Found rosidl_adapter: 0.8.2 (/home/riccardochiaretti/ros2_eloquent/install/rosidl_adapter/share/rosidl_adapter/cmake)
+[3.488s] -- Found rmw_implementation_cmake: 0.8.1 (/home/riccardochiaretti/ros2_eloquent/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+[3.529s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.531s] -- Looking for pthread.h
+[3.667s] -- Looking for pthread.h - found
+[3.668s] -- Looking for pthread_create
+[3.793s] -- Looking for pthread_create - not found
+[3.794s] -- Looking for pthread_create in pthreads
+[3.908s] -- Looking for pthread_create in pthreads - not found
+[3.909s] -- Looking for pthread_create in pthread
+[4.041s] -- Looking for pthread_create in pthread - found
+[4.042s] -- Found Threads: TRUE  
+[4.168s] -- Configuring incomplete, errors occurred!
+[4.168s] See also "/home/riccardochiaretti/alba_v2_hmi/build/hmi_node/CMakeFiles/CMakeOutput.log".
+[4.168s] See also "/home/riccardochiaretti/alba_v2_hmi/build/hmi_node/CMakeFiles/CMakeError.log".

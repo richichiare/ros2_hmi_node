@@ -1,0 +1,103 @@
+[0.000000] (-) TimerEvent: {}
+[0.000703] (hmi_node) JobQueued: {'identifier': 'hmi_node', 'dependencies': OrderedDict()}
+[0.000767] (hmi_node) JobStarted: {'identifier': 'hmi_node'}
+[0.013650] (hmi_node) JobProgress: {'identifier': 'hmi_node', 'progress': 'cmake'}
+[0.014487] (hmi_node) JobProgress: {'identifier': 'hmi_node', 'progress': 'build'}
+[0.015217] (hmi_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/riccardochiaretti/alba_v2_hmi/build/hmi_node', '--', '-j12', '-l12'], 'cwd': '/home/riccardochiaretti/alba_v2_hmi/build/hmi_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'riccardochiaretti'), ('LANGUAGE', 'en_US'), ('LC_TIME', 'it_IT.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1491'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/usr/local/lib:'), ('SHLVL', '1'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/riccardochiaretti'), ('OLDPWD', '/home/riccardochiaretti'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'it_IT.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '2'), ('LOGNAME', 'riccardochiaretti'), ('GTK_IM_MODULE', 'ibus'), ('DESKTOP_AUTOSTART_ID', '10fca0684b307c943b159177138259400200000013600007'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig:'), ('XDG_SESSION_ID', 'c2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/usr/local/bin:/home/riccardochiaretti/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('GDM_LANG', 'en_US'), ('SESSION_MANAGER', 'local/riccardochiaretti-HP-ZBook-15v-G5:@/tmp/.ICE-unix/1360,unix/riccardochiaretti-HP-ZBook-15v-G5:/tmp/.ICE-unix/1360'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/aa11b9fa_6fda_4dbc_b94a_24fc71686c3e'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('XAUTHORITY', '/home/riccardochiaretti/.Xauthority'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/riccardochiaretti'), ('LC_NAME', 'it_IT.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('XDG_VTNR', '7'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/riccardochiaretti/alba_v2_hmi/build/hmi_node'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202')]), 'shell': False}
+[0.099956] (-) TimerEvent: {}
+[0.200474] (-) TimerEvent: {}
+[0.301080] (-) TimerEvent: {}
+[0.387743] (hmi_node) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target hmi_node\x1b[0m\n'}
+[0.401258] (-) TimerEvent: {}
+[0.439504] (hmi_node) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/hmi_node.dir/src/main.cpp.o\x1b[0m\n'}
+[0.501366] (-) TimerEvent: {}
+[0.601633] (-) TimerEvent: {}
+[0.701902] (-) TimerEvent: {}
+[0.802170] (-) TimerEvent: {}
+[0.902439] (-) TimerEvent: {}
+[1.002732] (-) TimerEvent: {}
+[1.103003] (-) TimerEvent: {}
+[1.203319] (-) TimerEvent: {}
+[1.229261] (hmi_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/main.cpp:2:0\x1b[m\x1b[K:\n'}
+[1.229446] (hmi_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:35:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids converting a string constant to \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wwrite-strings\x1b[m\x1b[K]\n'}
+[1.229582] (hmi_node) StderrLine: {'line': b'         char *hello = \x1b[01;35m\x1b[K"Hello from client"\x1b[m\x1b[K;\n'}
+[1.229660] (hmi_node) StderrLine: {'line': b'                       \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.229720] (hmi_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KEthernetPrimitives::EthernetPrimitives()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.229828] (hmi_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:22:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kinit_socket_server\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.229892] (hmi_node) StderrLine: {'line': b'             if(!\x1b[01;31m\x1b[Kinit_socket_server\x1b[m\x1b[K()){\n'}
+[1.229950] (hmi_node) StderrLine: {'line': b'                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.233698] (hmi_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:22:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[Kinit_server_socket\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.234182] (hmi_node) StderrLine: {'line': b'             if(!\x1b[01;36m\x1b[Kinit_socket_server\x1b[m\x1b[K()){\n'}
+[1.234424] (hmi_node) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.234711] (hmi_node) StderrLine: {'line': b'                 \x1b[32m\x1b[Kinit_server_socket\x1b[m\x1b[K\n'}
+[1.234833] (hmi_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid EthernetPrimitives::get_socket_fd()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.234955] (hmi_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:43:95:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids compound-literals [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[1.235096] (hmi_node) StderrLine: {'line': b'             if (setsockopt(server_socket_fd, SOL_SOCKET, SO_REUSEADDR | SO_REUSEPORT, &(int){1\x1b[01;35m\x1b[K}\x1b[m\x1b[K, sizeof(opt))) {\n'}
+[1.235252] (hmi_node) StderrLine: {'line': b'                                                                                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.235362] (hmi_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:43:95:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktaking address of temporary [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[1.235470] (hmi_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:43:105:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kopt\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.235576] (hmi_node) StderrLine: {'line': b'             if (setsockopt(server_socket_fd, SOL_SOCKET, SO_REUSEADDR | SO_REUSEPORT, &(int){1}, sizeof(\x1b[01;31m\x1b[Kopt\x1b[m\x1b[K))) {\n'}
+[1.235685] (hmi_node) StderrLine: {'line': b'                                                                                                         \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.235821] (hmi_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid EthernetPrimitives::bind_socket_to_address()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.236045] (hmi_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:50:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kaddress\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.236151] (hmi_node) StderrLine: {'line': b'             memset((void *)&server_address,0,sizeof(\x1b[01;31m\x1b[Kaddress\x1b[m\x1b[K));\n'}
+[1.236253] (hmi_node) StderrLine: {'line': b'                                                     \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.236354] (hmi_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:50:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[Kaccess\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.236457] (hmi_node) StderrLine: {'line': b'             memset((void *)&server_address,0,sizeof(\x1b[01;36m\x1b[Kaddress\x1b[m\x1b[K));\n'}
+[1.236559] (hmi_node) StderrLine: {'line': b'                                                     \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.236658] (hmi_node) StderrLine: {'line': b'                                                     \x1b[32m\x1b[Kaccess\x1b[m\x1b[K\n'}
+[1.236758] (hmi_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid EthernetPrimitives::read_from_server_socket()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.236898] (hmi_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:73:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid cast from type \xe2\x80\x98\x1b[01m\x1b[KMessage {aka message_t}\x1b[m\x1b[K\xe2\x80\x99 to type \xe2\x80\x98\x1b[01m\x1b[Kvoid*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.237010] (hmi_node) StderrLine: {'line': b'             memset((void *)\x1b[01;31m\x1b[Km\x1b[m\x1b[K, 0, sizeof(Message));\n'}
+[1.237114] (hmi_node) StderrLine: {'line': b'                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.237215] (hmi_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:77:76:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[KMessage {aka message_t}\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kvoid*\x1b[m\x1b[K\xe2\x80\x99 for argument \xe2\x80\x98\x1b[01m\x1b[K2\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kssize_t recv(int, void*, size_t, int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.237328] (hmi_node) StderrLine: {'line': b'                 numBytesRecv = recv(server_socket_fd, m, sizeof(Message), 0\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.237429] (hmi_node) StderrLine: {'line': b'                                                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.237528] (hmi_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid EthernetPrimitives::wait_for_data()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.237629] (hmi_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:87:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksocketlen_t\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.237729] (hmi_node) StderrLine: {'line': b'             \x1b[01;31m\x1b[Ksocketlen_t\x1b[m\x1b[K client_len;\n'}
+[1.237828] (hmi_node) StderrLine: {'line': b'             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.237978] (hmi_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:87:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[Ksocklen_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.238082] (hmi_node) StderrLine: {'line': b'             \x1b[01;36m\x1b[Ksocketlen_t\x1b[m\x1b[K client_len;\n'}
+[1.238181] (hmi_node) StderrLine: {'line': b'             \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.238280] (hmi_node) StderrLine: {'line': b'             \x1b[32m\x1b[Ksocklen_t\x1b[m\x1b[K\n'}
+[1.238379] (hmi_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:101:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid cast from type \xe2\x80\x98\x1b[01m\x1b[Ksockaddr_in\x1b[m\x1b[K\xe2\x80\x99 to type \xe2\x80\x98\x1b[01m\x1b[Kvoid*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.238482] (hmi_node) StderrLine: {'line': b'                 memset((void *)\x1b[01;31m\x1b[Kclient_address\x1b[m\x1b[K, 0, sizeof(*client_address));\n'}
+[1.238580] (hmi_node) StderrLine: {'line': b'                                \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.238678] (hmi_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:101:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator*\x1b[m\x1b[K\xe2\x80\x99 (operand type is \xe2\x80\x98\x1b[01m\x1b[Ksockaddr_in\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[1.238779] (hmi_node) StderrLine: {'line': b'                 memset((void *)client_address, 0, sizeof(\x1b[01;31m\x1b[K*client_address\x1b[m\x1b[K));\n'}
+[1.238878] (hmi_node) StderrLine: {'line': b'                                                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.238976] (hmi_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:102:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclient_len\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.239123] (hmi_node) StderrLine: {'line': b'                 \x1b[01;31m\x1b[Kclient_len\x1b[m\x1b[K = sizeof(client_address);\n'}
+[1.239223] (hmi_node) StderrLine: {'line': b'                 \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.239461] (hmi_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:102:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[Klisten\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.239582] (hmi_node) StderrLine: {'line': b'                 \x1b[01;36m\x1b[Kclient_len\x1b[m\x1b[K = sizeof(client_address);\n'}
+[1.239760] (hmi_node) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.239895] (hmi_node) StderrLine: {'line': b'                 \x1b[32m\x1b[Klisten\x1b[m\x1b[K\n'}
+[1.239998] (hmi_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:103:98:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klen\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.240100] (hmi_node) StderrLine: {'line': b'                 client_socket_fd = accept(server_socket_fd, (struct sockaddr *)&client_address, &\x1b[01;31m\x1b[Klen\x1b[m\x1b[K);\n'}
+[1.240201] (hmi_node) StderrLine: {'line': b'                                                                                                  \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.240351] (hmi_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:103:98:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[Klink\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.240454] (hmi_node) StderrLine: {'line': b'                 client_socket_fd = accept(server_socket_fd, (struct sockaddr *)&client_address, &\x1b[01;36m\x1b[Klen\x1b[m\x1b[K);\n'}
+[1.240554] (hmi_node) StderrLine: {'line': b'                                                                                                  \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.240658] (hmi_node) StderrLine: {'line': b'                                                                                                  \x1b[32m\x1b[Klink\x1b[m\x1b[K\n'}
+[1.240761] (hmi_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/main.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.240866] (hmi_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/main.cpp:11:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kh\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[1.241000] (hmi_node) StderrLine: {'line': b'   EthernetPrimitives *\x1b[01;35m\x1b[Kh\x1b[m\x1b[K = new EthernetPrimitives();\n'}
+[1.241101] (hmi_node) StderrLine: {'line': b'                       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.241200] (hmi_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/main.cpp:4:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kargc\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[1.241304] (hmi_node) StderrLine: {'line': b' int main(int \x1b[01;35m\x1b[Kargc\x1b[m\x1b[K, char * argv[])\n'}
+[1.241403] (hmi_node) StderrLine: {'line': b'              \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.241502] (hmi_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/main.cpp:4:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kargv\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[1.241602] (hmi_node) StderrLine: {'line': b' int main(int argc, char * argv[\x1b[01;35m\x1b[K]\x1b[m\x1b[K)\n'}
+[1.241700] (hmi_node) StderrLine: {'line': b'                                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.303445] (-) TimerEvent: {}
+[1.357363] (hmi_node) StdoutLine: {'line': b"CMakeFiles/hmi_node.dir/build.make:62: recipe for target 'CMakeFiles/hmi_node.dir/src/main.cpp.o' failed\n"}
+[1.357678] (hmi_node) StderrLine: {'line': b'make[2]: *** [CMakeFiles/hmi_node.dir/src/main.cpp.o] Error 1\n'}
+[1.357968] (hmi_node) StderrLine: {'line': b'make[1]: *** [CMakeFiles/hmi_node.dir/all] Error 2\n'}
+[1.358060] (hmi_node) StdoutLine: {'line': b"CMakeFiles/Makefile2:131: recipe for target 'CMakeFiles/hmi_node.dir/all' failed\n"}
+[1.358146] (hmi_node) StdoutLine: {'line': b"Makefile:140: recipe for target 'all' failed\n"}
+[1.358210] (hmi_node) StderrLine: {'line': b'make: *** [all] Error 2\n'}
+[1.359557] (hmi_node) CommandEnded: {'returncode': 2}
+[1.360038] (hmi_node) JobEnded: {'identifier': 'hmi_node', 'rc': 2}
+[1.370176] (-) EventReactorShutdown: {}

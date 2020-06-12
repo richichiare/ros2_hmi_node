@@ -1,0 +1,22 @@
+[0.118s] [35m[1mScanning dependencies of target hmi_node_client[0m
+[0.119s] [35m[1mScanning dependencies of target hmi_node_server[0m
+[0.155s] [ 20%] [32mBuilding CXX object CMakeFiles/hmi_node_client.dir/src/client.cpp.o[0m
+[0.164s] [ 40%] [32mBuilding CXX object CMakeFiles/hmi_node_server.dir/src/EthernetPrimitives.cpp.o[0m
+[0.167s] [ 60%] [32mBuilding CXX object CMakeFiles/hmi_node_server.dir/src/main.cpp.o[0m
+[1.064s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.065s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/main.cpp:7:25:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kh[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.065s]      EthernetPrimitives *[01;35m[Kh[m[K = new EthernetPrimitives();
+[1.065s]                          [01;35m[K^[m[K
+[1.151s] [ 80%] [32m[1mLinking CXX executable hmi_node_client[0m
+[1.363s] [ 80%] Built target hmi_node_client
+[2.178s] [100%] [32m[1mLinking CXX executable hmi_node_server[0m
+[2.411s] CMakeFiles/hmi_node_server.dir/src/EthernetPrimitives.cpp.o: In function `CommunicationPrimitives::get_socket_fd_()':
+[2.411s] EthernetPrimitives.cpp:(.text+0x1b4): multiple definition of `CommunicationPrimitives::get_socket_fd_()'
+[2.412s] CMakeFiles/hmi_node_server.dir/src/main.cpp.o:main.cpp:(.text+0xa6): first defined here
+[2.412s] collect2: error: ld returned 1 exit status
+[2.413s] make[2]: *** [hmi_node_server] Error 1
+[2.413s] CMakeFiles/hmi_node_server.dir/build.make:171: recipe for target 'hmi_node_server' failed
+[2.413s] CMakeFiles/Makefile2:131: recipe for target 'CMakeFiles/hmi_node_server.dir/all' failed
+[2.413s] make[1]: *** [CMakeFiles/hmi_node_server.dir/all] Error 2
+[2.413s] Makefile:140: recipe for target 'all' failed
+[2.413s] make: *** [all] Error 2

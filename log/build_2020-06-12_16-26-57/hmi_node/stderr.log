@@ -1,0 +1,16 @@
+[0.396s] CMakeFiles/hmi_node_server.dir/src/EthernetPrimitives.cpp.o: In function `CommunicationPrimitives::get_socket_fd_()':
+[0.396s] EthernetPrimitives.cpp:(.text+0x1b4): multiple definition of `CommunicationPrimitives::get_socket_fd_()'
+[0.396s] CMakeFiles/hmi_node_server.dir/src/main.cpp.o:main.cpp:(.text+0xa6): first defined here
+[0.396s] collect2: error: ld returned 1 exit status
+[0.397s] make[2]: *** [hmi_node_server] Error 1
+[0.398s] make[1]: *** [CMakeFiles/hmi_node_server.dir/all] Error 2
+[0.398s] make[1]: *** Waiting for unfinished jobs....
+[0.897s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/client.cpp:39:23:[m[K [01;31m[Kerror: [m[Kno ‘[01m[Kvoid Client::hmi_send()[m[K’ member function declared in class ‘[01m[KClient[m[K’
+[0.897s]  void Client::hmi_send([01;31m[K)[m[K
+[0.897s]                        [01;31m[K^[m[K
+[0.897s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/client.cpp:44:26:[m[K [01;31m[Kerror: [m[Kno ‘[01m[Kvoid Client::hmi_receive()[m[K’ member function declared in class ‘[01m[KClient[m[K’
+[0.897s]  void Client::hmi_receive([01;31m[K)[m[K
+[0.898s]                           [01;31m[K^[m[K
+[1.024s] make[2]: *** [CMakeFiles/hmi_node_client.dir/src/client.cpp.o] Error 1
+[1.024s] make[1]: *** [CMakeFiles/hmi_node_client.dir/all] Error 2
+[1.024s] make: *** [all] Error 2

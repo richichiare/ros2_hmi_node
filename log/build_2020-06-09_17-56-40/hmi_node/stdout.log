@@ -1,0 +1,6 @@
+[0.156s] [35m[1mScanning dependencies of target hmi_node[0m
+[0.201s] [ 50%] [32mBuilding CXX object CMakeFiles/hmi_node.dir/src/main.cpp.o[0m
+[1.238s] [100%] [32m[1mLinking CXX executable hmi_node[0m
+[1.355s] CMakeFiles/hmi_node.dir/build.make:129: recipe for target 'hmi_node' failed
+[1.355s] CMakeFiles/Makefile2:131: recipe for target 'CMakeFiles/hmi_node.dir/all' failed
+[1.356s] Makefile:140: recipe for target 'all' failed

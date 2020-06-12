@@ -1,0 +1,49 @@
+[0.103s] -- Found ament_cmake: 0.8.2 (/home/riccardochiaretti/ros2_eloquent/install/ament_cmake/share/ament_cmake/cmake)
+[0.426s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.969s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.979s] -- Found rclcpp: 0.8.4 (/home/riccardochiaretti/ros2_eloquent/install/rclcpp/share/rclcpp/cmake)
+[1.025s] -- Found rosidl_adapter: 0.8.2 (/home/riccardochiaretti/ros2_eloquent/install/rosidl_adapter/share/rosidl_adapter/cmake)
+[1.046s] -- Found rmw_implementation_cmake: 0.8.1 (/home/riccardochiaretti/ros2_eloquent/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+[1.072s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.098s] -- Found geometry_msgs: 0.8.1 (/home/riccardochiaretti/ros2_eloquent/install/geometry_msgs/share/geometry_msgs/cmake)
+[1.106s] -- Found ament_index_cpp: 0.7.2 (/home/riccardochiaretti/ros2_eloquent/install/ament_index_cpp/share/ament_index_cpp/cmake)
+[1.373s] -- Found ament_lint_auto: 0.8.1 (/home/riccardochiaretti/ros2_eloquent/install/ament_lint_auto/share/ament_lint_auto/cmake)
+[1.745s] -- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+[1.745s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.746s] -- Configured cppcheck include dirs: 
+[1.747s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.747s] -- Added test 'lint_cmake' to check CMake code style
+[1.748s] -- Added test 'uncrustify' to check C / C++ code style
+[1.749s] -- Added test 'xmllint' to check XML markup files
+[1.751s] -- Configuring done
+[1.769s] -- Generating done
+[1.770s] -- Build files have been written to: /home/riccardochiaretti/alba_v2_hmi/build/hmi_node
+[1.811s] [35m[1mScanning dependencies of target hmi_node[0m
+[1.855s] [ 66%] [32mBuilding CXX object CMakeFiles/hmi_node.dir/src/main.cpp.o[0m
+[1.855s] [ 66%] [32mBuilding CXX object CMakeFiles/hmi_node.dir/src/client.cpp.o[0m
+[2.712s] In file included from [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/main.cpp:2:0[m[K:
+[2.712s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:[m[K In member function ‘[01m[Kvoid EthernetPrimitives::wait_for_data()[m[K’:
+[2.712s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:116:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmax_fd[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.712s]              int [01;35m[Kmax_fd[m[K;
+[2.712s]                  [01;35m[K^~~~~~[m[K
+[2.712s] In file included from [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/client.h:3:0[m[K,
+[2.712s]                  from [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/main.cpp:3[m[K:
+[2.712s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/communication_primitives.hpp:[m[K At global scope:
+[2.712s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/communication_primitives.hpp:4:7:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kclass CommunicationPrimitives[m[K’
+[2.713s]  class [01;31m[KCommunicationPrimitives[m[K{
+[2.713s]        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.713s] In file included from [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ethernet_primitives.hpp:1:0[m[K,
+[2.713s]                  from [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/main.cpp:2[m[K:
+[2.713s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/communication_primitives.hpp:4:7:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kclass CommunicationPrimitives[m[K’
+[2.713s]  class [01;36m[KCommunicationPrimitives[m[K{
+[2.713s]        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.713s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.713s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/main.cpp:15:25:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kh[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.713s]      EthernetPrimitives *[01;35m[Kh[m[K = new EthernetPrimitives();
+[2.714s]                          [01;35m[K^[m[K
+[3.007s] make[2]: *** [CMakeFiles/hmi_node.dir/src/main.cpp.o] Error 1
+[3.007s] CMakeFiles/hmi_node.dir/build.make:62: recipe for target 'CMakeFiles/hmi_node.dir/src/main.cpp.o' failed
+[3.008s] CMakeFiles/Makefile2:131: recipe for target 'CMakeFiles/hmi_node.dir/all' failed
+[3.008s] make[1]: *** [CMakeFiles/hmi_node.dir/all] Error 2
+[3.008s] Makefile:140: recipe for target 'all' failed
+[3.008s] make: *** [all] Error 2
