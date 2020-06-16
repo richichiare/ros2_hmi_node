@@ -4,3 +4,4 @@ hmi_node_server:
 hmi_node_client:
   ros__parameters:
     map_yaml_path: "/home/riccardochiaretti/alba_v2_hmi/param/stub_file.yaml"
+    path_to_rooms: "/home/riccardochiaretti/alba_v2_hmi/param/roomID_targetPosition.yaml"

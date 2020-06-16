@@ -1,0 +1,17 @@
+[5.593s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/server.cpp:[m[K In member function ‘[01m[Kvirtual void Server::hmi_receive()[m[K’:
+[5.593s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/server.cpp:151:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublish_pose[m[K’ was not declared in this scope
+[5.593s]      [01;31m[Kpublish_pose[m[K();
+[5.594s]      [01;31m[K^~~~~~~~~~~~[m[K
+[5.596s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/server.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[5.596s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/server.cpp:157:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ks[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[5.596s]      Server *[01;35m[Ks[m[K = new Server();
+[5.596s]              [01;35m[K^[m[K
+[6.097s] make[2]: *** [CMakeFiles/hmi_node_server.dir/src/server.cpp.o] Error 1
+[6.097s] make[1]: *** [CMakeFiles/hmi_node_server.dir/all] Error 2
+[6.097s] make[1]: *** Waiting for unfinished jobs....
+[8.768s] CMakeFiles/hmi_node_client.dir/src/client.cpp.o: In function `Client::odom_callback(std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >)':
+[8.768s] client.cpp:(.text+0x1879): undefined reference to `Client::map2pixel_coordinates()'
+[8.768s] collect2: error: ld returned 1 exit status
+[8.769s] make[2]: *** [hmi_node_client] Error 1
+[8.770s] make[1]: *** [CMakeFiles/hmi_node_client.dir/all] Error 2
+[8.770s] make: *** [all] Error 2

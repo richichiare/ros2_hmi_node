@@ -90,6 +90,7 @@ hmi_node_server_EXTERNAL_OBJECTS =
 
 hmi_node_server: CMakeFiles/hmi_node_server.dir/src/server.cpp.o
 hmi_node_server: CMakeFiles/hmi_node_server.dir/build.make
+hmi_node_server: liblib.a
 hmi_node_server: /home/riccardochiaretti/ros2_eloquent/install/rclcpp/lib/librclcpp.so
 hmi_node_server: /home/riccardochiaretti/ros2_eloquent/install/rcl/lib/librcl.so
 hmi_node_server: /home/riccardochiaretti/ros2_eloquent/install/rcl_interfaces/lib/librcl_interfaces__rosidl_typesupport_c.so

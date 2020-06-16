@@ -5,6 +5,7 @@ CMakeFiles/hmi_node_client.dir/src/client.cpp.o
  /home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/client.cpp
  /home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/client.h
  /home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/communication_primitives.hpp
+ /home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/nlohmann/json.hpp
  /home/riccardochiaretti/ros2_eloquent/install/ament_index_cpp/include/ament_index_cpp/get_package_share_directory.hpp
  /home/riccardochiaretti/ros2_eloquent/install/ament_index_cpp/include/ament_index_cpp/visibility_control.h
  /home/riccardochiaretti/ros2_eloquent/install/builtin_interfaces/include/builtin_interfaces/msg/duration.hpp

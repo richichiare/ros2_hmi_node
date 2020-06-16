@@ -1,10 +1,15 @@
 #include "client.h"
+#include "nlohmann/json.hpp"
+
+using json = nlohmann::json;
 
 Client::Client() : Node("hmi_node_client") {
 
-    //connect_to_hmi_interface();
+    connect_to_hmi_interface();
     setup_node_parameters();
     init_transform();
+
+    hmi_send();
 
     odom_sub = this->create_subscription<nav_msgs::msg::Odometry>("odom",  10, std::bind(&Client::odom_callback, this, std::placeholders::_1));
 }
@@ -12,21 +17,14 @@ Client::Client() : Node("hmi_node_client") {
 void Client::client_connect() {
     while (connect(socket_fd, (struct sockaddr*)&address, sizeof(address)) < 0) {
         RCLCPP_WARN(this->get_logger(), "Connection failed, retrying in 3 seconds...");
-        sleep(3); //Waiting before re-trying
+        sleep(3);
     }
     RCLCPP_INFO(this->get_logger(), "Connected");
 }
 
-//void Client::on_message_pose(/*const std_msgs::msg::String::SharedPtr msg*/) {
-//    //From pose to pixel coordinates
-//    m.x = (float) (rand()) / ((float) (RAND_MAX/759));
-//    m.y = (float) (rand()) / ((float) (RAND_MAX/704));
-//    hmi_send();
-//}
-
 void Client::hmi_send() {
-    //send(socket_fd , &m , sizeof (Message), 0);
-    RCLCPP_INFO(this->get_logger(), "Sending...");
+    //send(socket_fd , &m , sizeof (MessageInit), 0);
+    RCLCPP_INFO(this->get_logger(), "Sent");
 }
 
 void Client::init_transform() {
@@ -65,7 +63,7 @@ void Client::odom_callback(const nav_msgs::msg::Odometry::SharedPtr pose_msg) {
         map_x = transformedPose_->pose.position.x;
         map_y = transformedPose_->pose.position.y;
 
-        map2pixel_coordinates();
+        //map2pixel_coordinates();
 
         hmi_send();
     } catch (tf2::TransformException &ex) {
@@ -73,10 +71,10 @@ void Client::odom_callback(const nav_msgs::msg::Odometry::SharedPtr pose_msg) {
     }
 }
 
-void Client::map2pixel_coordinates() {
-    m.x = (map_x - origin[0])/resolution;
-    m.y = -(((map_y - origin[1])/resolution)-704);
-}
+//void Client::map2pixel_coordinates() {
+//    m.x = (map_x - origin[0])/resolution;
+//    m.y = -(((map_y - origin[1])/resolution)-704);
+//}
 
 void Client::setup_node_parameters() {
     this->declare_parameter("map_yaml_path");

@@ -3,6 +3,8 @@
 
 CMakeFiles/hmi_node_server.dir/src/server.cpp.o
  /home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/communication_primitives.hpp
+ /home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/jsonprimitives.h
+ /home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/nlohmann/json.hpp
  /home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/server.cpp
  /home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/server.h
  /home/riccardochiaretti/ros2_eloquent/install/ament_index_cpp/include/ament_index_cpp/get_package_share_directory.hpp

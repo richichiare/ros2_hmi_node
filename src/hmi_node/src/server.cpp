@@ -1,7 +1,8 @@
 #include "server.h"
 
-Server::Server() : Node("hmi_node_server")
-{
+Server::Server() : Node("hmi_node_server") {
+    recv_buffer.reserve(256);
+
     setup_node_parameters();
 
     pose_publisher = this->create_publisher<geometry_msgs::msg::PoseStamped>("goal_pose", 10);
@@ -22,12 +23,14 @@ void Server::hmi_send()
 
 }
 
-void Server::setup_node_parameters()
-{
+void Server::setup_node_parameters() {
+
     this->declare_parameter("map_yaml_path");
+    this->declare_parameter("path_to_rooms");
     this->declare_parameter("resolution");
     this->declare_parameter("origin");
     this->get_parameter("map_yaml_path", map_yaml_path);
+    this->get_parameter("path_to_rooms", path_to_rooms);
 
     YAML::Node param_file = YAML::LoadFile(map_yaml_path);
     resolution = param_file["resolution"].as<double>();
@@ -36,10 +39,19 @@ void Server::setup_node_parameters()
     std::ofstream fout(map_yaml_path.c_str());
     fout << param_file;
     fout.close();
+
+    YAML::Node rooms = YAML::LoadFile(path_to_rooms);
+    for(YAML::const_iterator it = rooms.begin(); it != rooms.end(); ++it) {
+        room_position.insert(std::pair<std::string, std::vector<float>>(it->first.as<std::string>(), it->second.as<std::vector<float>>()));
+    }
+
+    std::ofstream fout1(path_to_rooms.c_str());
+    fout1 << param_file;
+    fout1.close();
 }
 
-void Server::init_server_socket()
-{
+void Server::init_server_socket() {
+
     get_socket_fd_();
 
     int opt = 1;
@@ -56,8 +68,8 @@ void Server::init_server_socket()
     }
 }
 
-void Server::bind_socket_to_address()
-{
+void Server::bind_socket_to_address() {
+
     memset((void *)&address, 0, sizeof(address));
     address.sin_family = AF_INET;
     address.sin_addr.s_addr = INADDR_ANY;
@@ -72,8 +84,8 @@ void Server::bind_socket_to_address()
     }
 }
 
-void Server::wait_for_data()
-{
+void Server::wait_for_data() {
+
     errno = 0;
     max_fd = std::max(socket_fd, client_socket_fd);
     cpy_read_fds = read_fds;
@@ -89,8 +101,7 @@ void Server::wait_for_data()
     check_readable_socket();
 }
 
-void Server::check_readable_socket()
-{
+void Server::check_readable_socket() {
     if(FD_ISSET(socket_fd, &cpy_read_fds)){
         memset((void *)&client_address, 0, sizeof(client_address));
         client_len = sizeof(client_address);
@@ -101,13 +112,49 @@ void Server::check_readable_socket()
         RCLCPP_INFO(this->get_logger(), "Received data from client");
     }
     hmi_receive();
+    serve_request();
 }
 
-void Server::publish_pose()
-{
+bool Server::finished_receiving(const std::vector<char> &recv_buf) {
+
+    size_t index = recv_buf.size() - 1;
+    if(recv_buf[index - 2] == '\\' &&
+       recv_buf[index - 1] == '#' &&
+       recv_buf[index - 1] == '$'){
+        return true;
+    }
+    return false;
+}
+
+void Server::serve_request() {
+
+    short intent_code = received_json["intent_code"];
+
+    switch(intent_code){
+        case 10: //Serve init request
+            //TODO
+            break;
+        case 200: //Serve motion stop request
+            //TODO
+            break;
+        case 100: //Serve motion move request
+            publish_pose();
+            break;
+        case 300: //Serve status request
+            break;
+        default:
+            RCLCPP_WARN(this->get_logger(), "Received unknown intent_code, ignoring");
+    }
+}
+
+void Server::publish_pose() {
+    /*Get coordinates from HMI*/
+    float x_coord = (float) (received_json["data"]["location"])[0];
+    float y_coord = (float) (received_json["data"]["location"])[1];
+
     /*Do computation from pixel coordinates to map coordinates*/
-    double final_x = (m.x*resolution) + origin[0];
-    double final_y = ((704-m.y)*resolution) + origin[1];
+    double final_x = (x_coord * resolution) + origin[0];
+    double final_y = ((704 - y_coord) * resolution) + origin[1];
 
     auto pose_msg = geometry_msgs::msg::PoseStamped();
 
@@ -126,28 +173,43 @@ void Server::publish_pose()
     pose_publisher->publish(pose_msg);
 }
 
-void Server::hmi_receive(void){
-    memset((void *)&m, 0, sizeof(Message));
-    numBytesRecv = 0;
-    do {
+void Server::hmi_receive(void) {
+    recv_bytes_received = 0;
+    recv_offset = 0;
+    do{
         errno = 0;
-        numBytesRecv = recv(client_socket_fd, &m, sizeof(Message), 0);
-        if (numBytesRecv < 0){
-            RCLCPP_ERROR(this->get_logger(), "recv %s", strerror(errno));
-            return;
-        }else if(numBytesRecv == 0){
-            RCLCPP_INFO(this->get_logger(), "Client closed connection!");
-            FD_CLR(client_socket_fd, &read_fds);
-            close(client_socket_fd);
-            client_socket_fd = 0;
-            return;
+        recv_bytes_received = recv(client_socket_fd, recv_buffer.data() + recv_offset,
+                                   recv_buffer.size() - recv_offset, 0);
+        if (recv_bytes_received < 0) { //Error occurred
+            if (errno == EINTR) { //Interrupted by signal, try again
+                continue;
+            } else { //Interrupted for some reason
+                perror("recv");
+            }
+        } else if (recv_bytes_received == 0) { //No more data available
+            if (recv_offset == 0) { //Client closed connection
+                FD_CLR(client_socket_fd, &read_fds);
+                close(client_socket_fd);
+                client_socket_fd = 0;
+                return;
+            } else { //Connection was closed while sending data...
+                perror("recv");
+                return;
+            }
+        } else if (finished_receiving(recv_buffer)) { //Message is complete
+            recv_buffer.erase(recv_buffer.end() - 3, recv_buffer.end());
+            received_json.clear();
+            received_json = json::parse(std::string(recv_buffer.begin(), recv_buffer.end()));
+            break;
+        } else { //Message still not complete, iterate more
+            recv_offset += recv_bytes_received;
+            //buf.resize(std::max(buf.size(), 2 * offset)); // double available memory
         }
-    } while (numBytesRecv != sizeof(Message));
-    RCLCPP_INFO(this->get_logger(), "Received %f %f", m.x, m.y);
-    publish_pose();
+    } while(true);
 }
 
-int main(int argc, char **argv){
+int main(int argc, char **argv) {
+    exit(-1);
     rclcpp::init(argc, argv);
     //rclcpp::spinOnce(std::make_shared<Server>());
     Server *s = new Server();

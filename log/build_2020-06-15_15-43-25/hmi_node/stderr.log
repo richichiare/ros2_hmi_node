@@ -1,7 +1,0 @@
-[2.924s] CMakeFiles/hmi_node_client.dir/src/client.cpp.o: In function `Client::Client()':
-[2.924s] client.cpp:(.text+0x38b): undefined reference to `Client::init_transform()'
-[2.924s] client.cpp:(.text+0x3c5): undefined reference to `Client::odom_callback(std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >)'
-[2.925s] collect2: error: ld returned 1 exit status
-[2.926s] make[2]: *** [hmi_node_client] Error 1
-[2.926s] make[1]: *** [CMakeFiles/hmi_node_client.dir/all] Error 2
-[2.926s] make: *** [all] Error 2

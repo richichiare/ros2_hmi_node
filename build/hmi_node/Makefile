@@ -194,6 +194,19 @@ uninstall/fast:
 .PHONY : uninstall/fast
 
 #=============================================================================
+# Target rules for targets named lib
+
+# Build rule for target.
+lib: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lib
+.PHONY : lib
+
+# fast build rule for target.
+lib/fast:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/build
+.PHONY : lib/fast
+
+#=============================================================================
 # Target rules for targets named hmi_node_server
 
 # Build rule for target.
@@ -246,6 +259,33 @@ src/client.cpp.s:
 	$(MAKE) -f CMakeFiles/hmi_node_client.dir/build.make CMakeFiles/hmi_node_client.dir/src/client.cpp.s
 .PHONY : src/client.cpp.s
 
+src/jsonprimitives.o: src/jsonprimitives.cpp.o
+
+.PHONY : src/jsonprimitives.o
+
+# target to build an object file
+src/jsonprimitives.cpp.o:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/src/jsonprimitives.cpp.o
+.PHONY : src/jsonprimitives.cpp.o
+
+src/jsonprimitives.i: src/jsonprimitives.cpp.i
+
+.PHONY : src/jsonprimitives.i
+
+# target to preprocess a source file
+src/jsonprimitives.cpp.i:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/src/jsonprimitives.cpp.i
+.PHONY : src/jsonprimitives.cpp.i
+
+src/jsonprimitives.s: src/jsonprimitives.cpp.s
+
+.PHONY : src/jsonprimitives.s
+
+# target to generate assembly for a file
+src/jsonprimitives.cpp.s:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/src/jsonprimitives.cpp.s
+.PHONY : src/jsonprimitives.cpp.s
+
 src/server.o: src/server.cpp.o
 
 .PHONY : src/server.o
@@ -283,16 +323,20 @@ help:
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... edit_cache"
 	@echo "... hmi_node_uninstall"
 	@echo "... uninstall"
+	@echo "... lib"
 	@echo "... hmi_node_server"
-	@echo "... edit_cache"
 	@echo "... hmi_node_client"
 	@echo "... install/local"
 	@echo "... test"
 	@echo "... src/client.o"
 	@echo "... src/client.i"
 	@echo "... src/client.s"
+	@echo "... src/jsonprimitives.o"
+	@echo "... src/jsonprimitives.i"
+	@echo "... src/jsonprimitives.s"
 	@echo "... src/server.o"
 	@echo "... src/server.i"
 	@echo "... src/server.s"

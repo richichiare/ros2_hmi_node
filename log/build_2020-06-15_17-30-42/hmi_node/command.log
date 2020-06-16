@@ -1,4 +1,0 @@
-[0.011s] Invoking command in '/home/riccardochiaretti/alba_v2_hmi/build/hmi_node': /usr/bin/cmake --build /home/riccardochiaretti/alba_v2_hmi/build/hmi_node -- -j12 -l12
-[3.067s] Invoked command in '/home/riccardochiaretti/alba_v2_hmi/build/hmi_node' returned '0': /usr/bin/cmake --build /home/riccardochiaretti/alba_v2_hmi/build/hmi_node -- -j12 -l12
-[3.097s] Invoking command in '/home/riccardochiaretti/alba_v2_hmi/build/hmi_node': /usr/bin/cmake --build /home/riccardochiaretti/alba_v2_hmi/build/hmi_node --target install -- -j12 -l12
-[3.184s] Invoked command in '/home/riccardochiaretti/alba_v2_hmi/build/hmi_node' returned '0': /usr/bin/cmake --build /home/riccardochiaretti/alba_v2_hmi/build/hmi_node --target install -- -j12 -l12

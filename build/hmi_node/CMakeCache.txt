@@ -333,6 +333,9 @@ hmi_node_BINARY_DIR:STATIC=/home/riccardochiaretti/alba_v2_hmi/build/hmi_node
 //Value Computed by CMake
 hmi_node_SOURCE_DIR:STATIC=/home/riccardochiaretti/alba_v2_hmi/src/hmi_node
 
+//Dependencies for target
+lib_LIB_DEPENDS:STATIC=
+
 //The directory containing a CMake configuration file for message_filters.
 message_filters_DIR:PATH=/home/riccardochiaretti/ros2_eloquent/install/message_filters/share/message_filters/cmake
 

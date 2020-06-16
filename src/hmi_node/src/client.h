@@ -15,6 +15,8 @@
 #include "ament_index_cpp/get_package_share_directory.hpp"
 #include "yaml-cpp/yaml.h"
 
+#define LOCALHOST
+
 class Client : public rclcpp::Node, public CommunicationPrimitives
 {
 public:
@@ -30,12 +32,15 @@ private:
     void setup_node_parameters();
 
     const uint16_t PORT = 5000;
+#ifndef LOCALHOST
     const std::string server_address = "192.168.0.6";
+#else
+    const std::string server_address = "127.0.0.1";
+#endif
     double map_x, map_y;
     double resolution;
     std::vector<double> origin;
-    std::string map_yaml_path;
-    Message m;
+    std::string map_yaml_path, path_to_rooms;
 
     rclcpp::Subscription<nav_msgs::msg::Odometry>::SharedPtr odom_sub;
 

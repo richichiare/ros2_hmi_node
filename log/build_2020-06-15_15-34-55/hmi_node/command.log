@@ -1,2 +1,0 @@
-[0.013s] Invoking command in '/home/riccardochiaretti/alba_v2_hmi/build/hmi_node': /usr/bin/cmake /home/riccardochiaretti/alba_v2_hmi/src/hmi_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/riccardochiaretti/alba_v2_hmi/install/hmi_node
-[1.010s] Invoked command in '/home/riccardochiaretti/alba_v2_hmi/build/hmi_node' returned '1': /usr/bin/cmake /home/riccardochiaretti/alba_v2_hmi/src/hmi_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/riccardochiaretti/alba_v2_hmi/install/hmi_node
