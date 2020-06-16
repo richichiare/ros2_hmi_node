@@ -31,8 +31,6 @@ rclcpp/rclcpp.hpp
 /home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/rclcpp/rclcpp.hpp
 geometry_msgs/msg/pose_stamped.hpp
 /home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/geometry_msgs/msg/pose_stamped.hpp
-ament_index_cpp/visibility_control.h
-/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ament_index_cpp/visibility_control.h
 ament_index_cpp/get_package_share_directory.hpp
 /home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/ament_index_cpp/get_package_share_directory.hpp
 yaml-cpp/yaml.h

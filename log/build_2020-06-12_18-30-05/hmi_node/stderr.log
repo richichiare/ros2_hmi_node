@@ -1,7 +1,0 @@
-[4.217s] CMakeFiles/hmi_node_server.dir/src/server.cpp.o: In function `Server::Server()':
-[4.218s] server.cpp:(.text+0x2ab): undefined reference to `vtable for Server'
-[4.218s] server.cpp:(.text+0x2bc): undefined reference to `vtable for Server'
-[4.218s] collect2: error: ld returned 1 exit status
-[4.219s] make[2]: *** [hmi_node_server] Error 1
-[4.219s] make[1]: *** [CMakeFiles/hmi_node_server.dir/all] Error 2
-[4.220s] make: *** [all] Error 2

@@ -1,0 +1,8 @@
+[0.247s] In file included from [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/client.cpp:1:0[m[K:
+[0.247s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/client.h:9:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/TransformStamped.h: No such file or directory
+[0.247s]  #include [01;31m[K<geometry_msgs/TransformStamped.h>[m[K
+[0.247s]           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.247s] compilation terminated.
+[0.248s] make[2]: *** [CMakeFiles/hmi_node_client.dir/src/client.cpp.o] Error 1
+[0.249s] make[1]: *** [CMakeFiles/hmi_node_client.dir/all] Error 2
+[0.249s] make: *** [all] Error 2

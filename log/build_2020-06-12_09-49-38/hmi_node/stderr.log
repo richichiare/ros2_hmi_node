@@ -1,4 +1,0 @@
-[0.927s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
-[0.927s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/main.cpp:8:25:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kh[m[K’ [[01;35m[K-Wunused-variable[m[K]
-[0.927s]      EthernetPrimitives *[01;35m[Kh[m[K = new EthernetPrimitives();
-[0.927s]                          [01;35m[K^[m[K

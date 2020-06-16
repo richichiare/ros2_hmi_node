@@ -1,8 +1,0 @@
-[0.117s] [35m[1mScanning dependencies of target hmi_node_client[0m
-[0.143s] [ 20%] [32m[1mLinking CXX executable hmi_node_server[0m
-[0.149s] [ 40%] [32mBuilding CXX object CMakeFiles/hmi_node_client.dir/src/client.cpp.o[0m
-[0.392s] CMakeFiles/hmi_node_server.dir/build.make:171: recipe for target 'hmi_node_server' failed
-[0.393s] CMakeFiles/Makefile2:131: recipe for target 'CMakeFiles/hmi_node_server.dir/all' failed
-[1.016s] CMakeFiles/hmi_node_client.dir/build.make:62: recipe for target 'CMakeFiles/hmi_node_client.dir/src/client.cpp.o' failed
-[1.017s] CMakeFiles/Makefile2:168: recipe for target 'CMakeFiles/hmi_node_client.dir/all' failed
-[1.017s] Makefile:140: recipe for target 'all' failed

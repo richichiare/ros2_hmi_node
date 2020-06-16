@@ -84,6 +84,7 @@ void Server::wait_for_data()
             perror("select");
             exit(EXIT_FAILURE);
         }
+        perror("Attention!");
     }
     check_readable_socket();
 }
@@ -105,8 +106,8 @@ void Server::check_readable_socket()
 void Server::publish_pose()
 {
     /*Do computation from pixel coordinates to map coordinates*/
-    double final_x = (m.x/resolution) + origin[0];
-    double final_y = ((704-m.y)/resolution) + origin[1];
+    double final_x = (m.x*resolution) + origin[0];
+    double final_y = ((704-m.y)*resolution) + origin[1];
 
     auto pose_msg = geometry_msgs::msg::PoseStamped();
 

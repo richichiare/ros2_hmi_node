@@ -10,9 +10,19 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/home/riccardochiaretti/ros2_eloquent/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/lib/cmake/yaml-cpp/../../../include"
+  "/home/riccardochiaretti/ros2_eloquent/install/tf2_geometry_msgs/include"
+  "/home/riccardochiaretti/ros2_eloquent/install/tf2_ros/include"
+  "/home/riccardochiaretti/ros2_eloquent/install/tf2_msgs/include"
+  "/home/riccardochiaretti/ros2_eloquent/install/action_msgs/include"
+  "/home/riccardochiaretti/ros2_eloquent/install/unique_identifier_msgs/include"
   "/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include"
   "/home/riccardochiaretti/ros2_eloquent/install/rcl/include"
   "/home/riccardochiaretti/ros2_eloquent/install/tracetools/include"
+  "/home/riccardochiaretti/ros2_eloquent/install/tf2/include"
+  "/home/riccardochiaretti/ros2_eloquent/install/nav_msgs/include"
+  "/home/riccardochiaretti/ros2_eloquent/install/geometry_msgs/include"
+  "/home/riccardochiaretti/ros2_eloquent/install/std_msgs/include"
   "/home/riccardochiaretti/ros2_eloquent/install/rosgraph_msgs/include"
   "/home/riccardochiaretti/ros2_eloquent/install/rcl_interfaces/include"
   "/home/riccardochiaretti/ros2_eloquent/install/builtin_interfaces/include"
@@ -28,6 +38,12 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/riccardochiaretti/ros2_eloquent/install/rcutils/include"
   "/home/riccardochiaretti/ros2_eloquent/install/rcpputils/include"
   "/home/riccardochiaretti/ros2_eloquent/install/rcl_yaml_param_parser/include"
+  "/home/riccardochiaretti/ros2_eloquent/install/message_filters/include"
+  "/home/riccardochiaretti/ros2_eloquent/install/console_bridge_vendor/include"
+  "/home/riccardochiaretti/ros2_eloquent/install/ament_index_cpp/include"
+  "/home/riccardochiaretti/ros2_eloquent/install/orocos_kdl/include"
+  "/usr/include/eigen3"
+  "/home/riccardochiaretti/ros2_eloquent/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include"
   )
 
 # Targets to which this target links.

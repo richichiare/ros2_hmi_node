@@ -1,0 +1,16 @@
+[0.056s] -- The C compiler identification is GNU 7.5.0
+[0.095s] -- The CXX compiler identification is GNU 7.5.0
+[0.098s] -- Check for working C compiler: /usr/bin/cc
+[0.153s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.153s] -- Detecting C compiler ABI info
+[0.218s] -- Detecting C compiler ABI info - done
+[0.224s] -- Detecting C compile features
+[0.509s] -- Detecting C compile features - done
+[0.513s] -- Check for working CXX compiler: /usr/bin/c++
+[0.632s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.633s] -- Detecting CXX compiler ABI info
+[0.701s] -- Detecting CXX compiler ABI info - done
+[0.705s] -- Detecting CXX compile features
+[1.003s] -- Detecting CXX compile features - done
+[1.009s] -- Configuring incomplete, errors occurred!
+[1.009s] See also "/home/riccardochiaretti/alba_v2_hmi/build/hmi_node/CMakeFiles/CMakeOutput.log".

@@ -1,0 +1,7 @@
+[1.311s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/client.cpp:[m[K In member function ‘[01m[Kvoid Client::client_connect()[m[K’:
+[1.311s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/client.cpp:17:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Ksleep[m[K’
+[1.311s]          [01;31m[Ksleep[m[K(3); //Waiting before re-trying
+[1.311s]          [01;31m[K^~~~~[m[K
+[1.863s] make[2]: *** [CMakeFiles/hmi_node_client.dir/src/client.cpp.o] Error 1
+[1.863s] make[1]: *** [CMakeFiles/hmi_node_client.dir/all] Error 2
+[1.863s] make: *** [all] Error 2

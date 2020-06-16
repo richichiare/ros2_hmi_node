@@ -1,4 +1,0 @@
-[0.916s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/EthernetPrimitives.cpp:[m[K In member function ‘[01m[Kvoid EthernetPrimitives::wait_for_data()[m[K’:
-[0.916s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/EthernetPrimitives.cpp:52:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmax_fd[m[K’ [[01;35m[K-Wunused-variable[m[K]
-[0.916s]      int [01;35m[Kmax_fd[m[K;
-[0.916s]          [01;35m[K^~~~~~[m[K

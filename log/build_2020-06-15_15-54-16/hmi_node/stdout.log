@@ -1,0 +1,5 @@
+[0.141s] [ 75%] Built target hmi_node_server
+[0.141s] [ 75%] [32m[1mLinking CXX executable hmi_node_client[0m
+[0.515s] CMakeFiles/hmi_node_client.dir/build.make:177: recipe for target 'hmi_node_client' failed
+[0.515s] CMakeFiles/Makefile2:168: recipe for target 'CMakeFiles/hmi_node_client.dir/all' failed
+[0.515s] Makefile:140: recipe for target 'all' failed
