@@ -1,4 +1,0 @@
-#ifndef JSONMESSAGES_H
-#define JSONMESSAGES_H
-
-#endif // JSONMESSAGES_H

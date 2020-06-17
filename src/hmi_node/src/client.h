@@ -40,7 +40,7 @@ private:
     double map_x, map_y;
     double resolution;
     std::vector<double> origin;
-    std::string map_yaml_path, path_to_rooms;
+    std::string map_yaml_path;
 
     rclcpp::Subscription<nav_msgs::msg::Odometry>::SharedPtr odom_sub;
 
