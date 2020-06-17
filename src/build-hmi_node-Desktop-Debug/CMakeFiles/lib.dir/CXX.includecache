@@ -348,3 +348,13 @@ limits
 type_traits
 -
 
+/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/statusinformation.cpp
+statusinformation.h
+/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/statusinformation.h
+
+/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/statusinformation.h
+vector
+-
+mutex
+-
+

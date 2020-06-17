@@ -1,5 +1,4 @@
 /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/lib/hmi_node/hmi_node_server
-/home/riccardochiaretti/alba_v2_hmi/install/hmi_node/lib/hmi_node/hmi_node_client
 /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/hmi_node//launch/hmi_node_launch.launch.py
 /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/ament_index/resource_index/package_run_dependencies/hmi_node
 /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/ament_index/resource_index/parent_prefix_path/hmi_node

@@ -1,0 +1,97 @@
+[0.000000] (-) TimerEvent: {}
+[0.000130] (hmi_node) JobQueued: {'identifier': 'hmi_node', 'dependencies': OrderedDict()}
+[0.000279] (hmi_node) JobStarted: {'identifier': 'hmi_node'}
+[0.007865] (hmi_node) JobProgress: {'identifier': 'hmi_node', 'progress': 'cmake'}
+[0.008378] (hmi_node) JobProgress: {'identifier': 'hmi_node', 'progress': 'build'}
+[0.008934] (hmi_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/riccardochiaretti/alba_v2_hmi/build/hmi_node', '--', '-j12', '-l12'], 'cwd': '/home/riccardochiaretti/alba_v2_hmi/build/hmi_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'riccardochiaretti'), ('LANGUAGE', 'en_US'), ('LC_TIME', 'it_IT.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1534'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/usr/local/lib:'), ('SHLVL', '1'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/riccardochiaretti'), ('OLDPWD', '/home/riccardochiaretti'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'it_IT.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '2'), ('LOGNAME', 'riccardochiaretti'), ('GTK_IM_MODULE', 'ibus'), ('DESKTOP_AUTOSTART_ID', '10a36a01cf6d98ec5d159237738298968700000014040007'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig:'), ('XDG_SESSION_ID', 'c2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/usr/local/bin:/home/riccardochiaretti/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('GDM_LANG', 'en_US'), ('SESSION_MANAGER', 'local/riccardochiaretti-HP-ZBook-15v-G5:@/tmp/.ICE-unix/1404,unix/riccardochiaretti-HP-ZBook-15v-G5:/tmp/.ICE-unix/1404'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1ac08699_63f6_4fb6_9134_25b0f275da19'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.157'), ('XAUTHORITY', '/home/riccardochiaretti/.Xauthority'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/riccardochiaretti'), ('LC_NAME', 'it_IT.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('XDG_VTNR', '7'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/riccardochiaretti/alba_v2_hmi/build/hmi_node'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202')]), 'shell': False}
+[0.053700] (hmi_node) StdoutLine: {'line': b'[ 60%] Built target lib\n'}
+[0.064949] (hmi_node) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target hmi_node_server\x1b[0m\n'}
+[0.097550] (hmi_node) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/hmi_node_server.dir/src/server.cpp.o\x1b[0m\n'}
+[0.098756] (-) TimerEvent: {}
+[0.199023] (-) TimerEvent: {}
+[0.299304] (-) TimerEvent: {}
+[0.399563] (-) TimerEvent: {}
+[0.499828] (-) TimerEvent: {}
+[0.600093] (-) TimerEvent: {}
+[0.700391] (-) TimerEvent: {}
+[0.800652] (-) TimerEvent: {}
+[0.900937] (-) TimerEvent: {}
+[1.001201] (-) TimerEvent: {}
+[1.101481] (-) TimerEvent: {}
+[1.201763] (-) TimerEvent: {}
+[1.302042] (-) TimerEvent: {}
+[1.402084] (hmi_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Server::send_status()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.402235] (-) TimerEvent: {}
+[1.402337] (hmi_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/server.cpp:240:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kx\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[1.402428] (hmi_node) StderrLine: {'line': b'     float \x1b[01;35m\x1b[Kx\x1b[m\x1b[K = 250.5f, y = 333.4f;\n'}
+[1.402484] (hmi_node) StderrLine: {'line': b'           \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.402537] (hmi_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/server.cpp:240:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ky\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[1.402590] (hmi_node) StderrLine: {'line': b'     float x = 250.5f, \x1b[01;35m\x1b[Ky\x1b[m\x1b[K = 333.4f;\n'}
+[1.402640] (hmi_node) StderrLine: {'line': b'                       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.502359] (-) TimerEvent: {}
+[1.602618] (-) TimerEvent: {}
+[1.702899] (-) TimerEvent: {}
+[1.803175] (-) TimerEvent: {}
+[1.903460] (-) TimerEvent: {}
+[2.003781] (-) TimerEvent: {}
+[2.104079] (-) TimerEvent: {}
+[2.204353] (-) TimerEvent: {}
+[2.304645] (-) TimerEvent: {}
+[2.404915] (-) TimerEvent: {}
+[2.505177] (-) TimerEvent: {}
+[2.605458] (-) TimerEvent: {}
+[2.705743] (-) TimerEvent: {}
+[2.806015] (-) TimerEvent: {}
+[2.906287] (-) TimerEvent: {}
+[3.006560] (-) TimerEvent: {}
+[3.106833] (-) TimerEvent: {}
+[3.207107] (-) TimerEvent: {}
+[3.307383] (-) TimerEvent: {}
+[3.407654] (-) TimerEvent: {}
+[3.507909] (-) TimerEvent: {}
+[3.608182] (-) TimerEvent: {}
+[3.708455] (-) TimerEvent: {}
+[3.808728] (-) TimerEvent: {}
+[3.909000] (-) TimerEvent: {}
+[4.009273] (-) TimerEvent: {}
+[4.109547] (-) TimerEvent: {}
+[4.209823] (-) TimerEvent: {}
+[4.310102] (-) TimerEvent: {}
+[4.410390] (-) TimerEvent: {}
+[4.442378] (hmi_node) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable hmi_node_server\x1b[0m\n'}
+[4.510532] (-) TimerEvent: {}
+[4.610860] (-) TimerEvent: {}
+[4.711164] (-) TimerEvent: {}
+[4.811449] (-) TimerEvent: {}
+[4.892691] (hmi_node) StdoutLine: {'line': b'[100%] Built target hmi_node_server\n'}
+[4.901519] (hmi_node) CommandEnded: {'returncode': 0}
+[4.911762] (-) TimerEvent: {}
+[4.922696] (hmi_node) JobProgress: {'identifier': 'hmi_node', 'progress': 'install'}
+[4.932627] (hmi_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/riccardochiaretti/alba_v2_hmi/build/hmi_node', '--target', 'install', '--', '-j12', '-l12'], 'cwd': '/home/riccardochiaretti/alba_v2_hmi/build/hmi_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'riccardochiaretti'), ('LANGUAGE', 'en_US'), ('LC_TIME', 'it_IT.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1534'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/usr/local/lib:'), ('SHLVL', '1'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/riccardochiaretti'), ('OLDPWD', '/home/riccardochiaretti'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'it_IT.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '2'), ('LOGNAME', 'riccardochiaretti'), ('GTK_IM_MODULE', 'ibus'), ('DESKTOP_AUTOSTART_ID', '10a36a01cf6d98ec5d159237738298968700000014040007'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig:'), ('XDG_SESSION_ID', 'c2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/usr/local/bin:/home/riccardochiaretti/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('GDM_LANG', 'en_US'), ('SESSION_MANAGER', 'local/riccardochiaretti-HP-ZBook-15v-G5:@/tmp/.ICE-unix/1404,unix/riccardochiaretti-HP-ZBook-15v-G5:/tmp/.ICE-unix/1404'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1ac08699_63f6_4fb6_9134_25b0f275da19'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.157'), ('XAUTHORITY', '/home/riccardochiaretti/.Xauthority'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/riccardochiaretti'), ('LC_NAME', 'it_IT.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('XDG_VTNR', '7'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/riccardochiaretti/alba_v2_hmi/build/hmi_node'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202')]), 'shell': False}
+[4.977181] (hmi_node) StdoutLine: {'line': b'[ 60%] Built target lib\n'}
+[5.002171] (hmi_node) StdoutLine: {'line': b'[100%] Built target hmi_node_server\n'}
+[5.011866] (-) TimerEvent: {}
+[5.018166] (hmi_node) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[5.025763] (hmi_node) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.026215] (hmi_node) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[5.026646] (hmi_node) StdoutLine: {'line': b'-- Symlinking: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/lib/hmi_node/hmi_node_server\n'}
+[5.035387] (hmi_node) StdoutLine: {'line': b'-- Symlinking: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/hmi_node//launch/hmi_node_launch.launch.py\n'}
+[5.044076] (hmi_node) StdoutLine: {'line': b'-- Symlinking: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/ament_index/resource_index/package_run_dependencies/hmi_node\n'}
+[5.052161] (hmi_node) StdoutLine: {'line': b'-- Symlinking: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/ament_index/resource_index/parent_prefix_path/hmi_node\n'}
+[5.059642] (hmi_node) StdoutLine: {'line': b'-- Symlinking: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/hmi_node/environment/ament_prefix_path.sh\n'}
+[5.066939] (hmi_node) StdoutLine: {'line': b'-- Symlinking: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/hmi_node/environment/ament_prefix_path.dsv\n'}
+[5.074393] (hmi_node) StdoutLine: {'line': b'-- Symlinking: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/hmi_node/environment/path.sh\n'}
+[5.082095] (hmi_node) StdoutLine: {'line': b'-- Symlinking: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/hmi_node/environment/path.dsv\n'}
+[5.089621] (hmi_node) StdoutLine: {'line': b'-- Symlinking: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/hmi_node/local_setup.bash\n'}
+[5.096804] (hmi_node) StdoutLine: {'line': b'-- Symlinking: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/hmi_node/local_setup.sh\n'}
+[5.104020] (hmi_node) StdoutLine: {'line': b'-- Symlinking: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/hmi_node/local_setup.zsh\n'}
+[5.111270] (hmi_node) StdoutLine: {'line': b'-- Symlinking: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/hmi_node/local_setup.dsv\n'}
+[5.111956] (-) TimerEvent: {}
+[5.118660] (hmi_node) StdoutLine: {'line': b'-- Symlinking: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/hmi_node/package.dsv\n'}
+[5.126005] (hmi_node) StdoutLine: {'line': b'-- Symlinking: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/ament_index/resource_index/packages/hmi_node\n'}
+[5.133399] (hmi_node) StdoutLine: {'line': b'-- Symlinking: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/hmi_node/cmake/hmi_nodeConfig.cmake\n'}
+[5.140706] (hmi_node) StdoutLine: {'line': b'-- Symlinking: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/hmi_node/cmake/hmi_nodeConfig-version.cmake\n'}
+[5.148202] (hmi_node) StdoutLine: {'line': b'-- Symlinking: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/hmi_node/package.xml\n'}
+[5.159037] (hmi_node) CommandEnded: {'returncode': 0}
+[5.168752] (hmi_node) JobEnded: {'identifier': 'hmi_node', 'rc': 0}
+[5.169626] (-) EventReactorShutdown: {}

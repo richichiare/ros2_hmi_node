@@ -1,0 +1,34 @@
+[0.053s] [ 60%] Built target lib
+[0.065s] [35m[1mScanning dependencies of target hmi_node_server[0m
+[0.097s] [ 80%] [32mBuilding CXX object CMakeFiles/hmi_node_server.dir/src/server.cpp.o[0m
+[1.402s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/server.cpp:[m[K In member function ‘[01m[Kvoid Server::send_status()[m[K’:
+[1.402s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/server.cpp:240:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.402s]      float [01;35m[Kx[m[K = 250.5f, y = 333.4f;
+[1.402s]            [01;35m[K^[m[K
+[1.402s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/server.cpp:240:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ky[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.402s]      float x = 250.5f, [01;35m[Ky[m[K = 333.4f;
+[1.402s]                        [01;35m[K^[m[K
+[4.442s] [100%] [32m[1mLinking CXX executable hmi_node_server[0m
+[4.892s] [100%] Built target hmi_node_server
+[4.977s] [ 60%] Built target lib
+[5.002s] [100%] Built target hmi_node_server
+[5.018s] [36mInstall the project...[0m
+[5.025s] -- Install configuration: ""
+[5.026s] -- Execute custom install script
+[5.026s] -- Symlinking: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/lib/hmi_node/hmi_node_server
+[5.035s] -- Symlinking: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/hmi_node//launch/hmi_node_launch.launch.py
+[5.044s] -- Symlinking: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/ament_index/resource_index/package_run_dependencies/hmi_node
+[5.052s] -- Symlinking: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/ament_index/resource_index/parent_prefix_path/hmi_node
+[5.059s] -- Symlinking: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/hmi_node/environment/ament_prefix_path.sh
+[5.067s] -- Symlinking: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/hmi_node/environment/ament_prefix_path.dsv
+[5.074s] -- Symlinking: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/hmi_node/environment/path.sh
+[5.082s] -- Symlinking: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/hmi_node/environment/path.dsv
+[5.089s] -- Symlinking: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/hmi_node/local_setup.bash
+[5.097s] -- Symlinking: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/hmi_node/local_setup.sh
+[5.104s] -- Symlinking: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/hmi_node/local_setup.zsh
+[5.111s] -- Symlinking: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/hmi_node/local_setup.dsv
+[5.118s] -- Symlinking: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/hmi_node/package.dsv
+[5.126s] -- Symlinking: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/ament_index/resource_index/packages/hmi_node
+[5.133s] -- Symlinking: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/hmi_node/cmake/hmi_nodeConfig.cmake
+[5.140s] -- Symlinking: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/hmi_node/cmake/hmi_nodeConfig-version.cmake
+[5.148s] -- Symlinking: /home/riccardochiaretti/alba_v2_hmi/install/hmi_node/share/hmi_node/package.xml

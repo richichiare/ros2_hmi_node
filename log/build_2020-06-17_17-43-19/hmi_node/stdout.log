@@ -1,0 +1,61 @@
+[0.111s] -- The C compiler identification is GNU 7.5.0
+[0.179s] -- The CXX compiler identification is GNU 7.5.0
+[0.187s] -- Check for working C compiler: /usr/bin/cc
+[0.282s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.283s] -- Detecting C compiler ABI info
+[0.383s] -- Detecting C compiler ABI info - done
+[0.387s] -- Detecting C compile features
+[0.745s] -- Detecting C compile features - done
+[0.748s] -- Check for working CXX compiler: /usr/bin/c++
+[0.880s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.880s] -- Detecting CXX compiler ABI info
+[0.987s] -- Detecting CXX compiler ABI info - done
+[0.990s] -- Detecting CXX compile features
+[1.432s] -- Detecting CXX compile features - done
+[1.445s] -- Found ament_cmake: 0.8.2 (/home/riccardochiaretti/ros2_eloquent/install/ament_cmake/share/ament_cmake/cmake)
+[1.781s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[1.781s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.315s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.473s] -- Found rclcpp: 0.8.4 (/home/riccardochiaretti/ros2_eloquent/install/rclcpp/share/rclcpp/cmake)
+[2.597s] -- Found rosidl_adapter: 0.8.2 (/home/riccardochiaretti/ros2_eloquent/install/rosidl_adapter/share/rosidl_adapter/cmake)
+[2.674s] -- Found rmw_implementation_cmake: 0.8.1 (/home/riccardochiaretti/ros2_eloquent/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+[2.700s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.700s] -- Looking for pthread.h
+[2.797s] -- Looking for pthread.h - found
+[2.797s] -- Looking for pthread_create
+[2.894s] -- Looking for pthread_create - not found
+[2.894s] -- Looking for pthread_create in pthreads
+[2.983s] -- Looking for pthread_create in pthreads - not found
+[2.983s] -- Looking for pthread_create in pthread
+[3.088s] -- Looking for pthread_create in pthread - found
+[3.089s] -- Found Threads: TRUE  
+[3.176s] -- Found geometry_msgs: 0.8.1 (/home/riccardochiaretti/ros2_eloquent/install/geometry_msgs/share/geometry_msgs/cmake)
+[3.193s] -- Found tf2_geometry_msgs: 0.12.5 (/home/riccardochiaretti/ros2_eloquent/install/tf2_geometry_msgs/share/tf2_geometry_msgs/cmake)
+[3.324s] -- Found nav_msgs: 0.8.1 (/home/riccardochiaretti/ros2_eloquent/install/nav_msgs/share/nav_msgs/cmake)
+[3.347s] -- Found ament_index_cpp: 0.7.2 (/home/riccardochiaretti/ros2_eloquent/install/ament_index_cpp/share/ament_index_cpp/cmake)
+[3.349s] -- Found yaml_cpp_vendor: 7.0.0 (/home/riccardochiaretti/ros2_eloquent/install/yaml_cpp_vendor/share/yaml_cpp_vendor/cmake)
+[3.350s] -- Setting yaml-cpp_DIR to: '/home/riccardochiaretti/ros2_eloquent/install/yaml_cpp_vendor/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[3.827s] -- Found ament_lint_auto: 0.8.1 (/home/riccardochiaretti/ros2_eloquent/install/ament_lint_auto/share/ament_lint_auto/cmake)
+[4.284s] -- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+[4.287s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.288s] -- Configured cppcheck include dirs: 
+[4.291s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.293s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.296s] -- Added test 'lint_cmake' to check CMake code style
+[4.298s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[4.301s] -- Added test 'uncrustify' to check C / C++ code style
+[4.303s] -- Added test 'xmllint' to check XML markup files
+[4.310s] -- Configuring done
+[4.331s] -- Generating done
+[4.333s] -- Build files have been written to: /home/riccardochiaretti/alba_v2_hmi/build/hmi_node
+[4.412s] [35m[1mScanning dependencies of target lib[0m
+[4.437s] [ 40%] [32mBuilding CXX object CMakeFiles/lib.dir/src/statusinformation.cpp.o[0m
+[4.437s] [ 40%] [32mBuilding CXX object CMakeFiles/lib.dir/src/jsonprimitives.cpp.o[0m
+[5.414s] [ 60%] [32m[1mLinking CXX static library liblib.a[0m
+[5.473s] [ 60%] Built target lib
+[5.493s] [35m[1mScanning dependencies of target hmi_node_server[0m
+[5.549s] [ 80%] [32mBuilding CXX object CMakeFiles/hmi_node_server.dir/src/server.cpp.o[0m
+[9.931s] [100%] [32m[1mLinking CXX executable hmi_node_server[0m
+[10.382s] CMakeFiles/hmi_node_server.dir/build.make:179: recipe for target 'hmi_node_server' failed
+[10.383s] CMakeFiles/Makefile2:168: recipe for target 'CMakeFiles/hmi_node_server.dir/all' failed
+[10.383s] Makefile:140: recipe for target 'all' failed

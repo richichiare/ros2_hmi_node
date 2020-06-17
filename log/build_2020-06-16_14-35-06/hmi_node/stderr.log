@@ -1,4 +1,0 @@
-[1.009s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/server.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
-[1.010s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/server.cpp:158:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ks[m[K’ [[01;35m[K-Wunused-variable[m[K]
-[1.010s]      Server *[01;35m[Ks[m[K = new Server();
-[1.010s]              [01;35m[K^[m[K

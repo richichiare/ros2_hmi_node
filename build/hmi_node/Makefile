@@ -219,46 +219,6 @@ hmi_node_server/fast:
 	$(MAKE) -f CMakeFiles/hmi_node_server.dir/build.make CMakeFiles/hmi_node_server.dir/build
 .PHONY : hmi_node_server/fast
 
-#=============================================================================
-# Target rules for targets named hmi_node_client
-
-# Build rule for target.
-hmi_node_client: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 hmi_node_client
-.PHONY : hmi_node_client
-
-# fast build rule for target.
-hmi_node_client/fast:
-	$(MAKE) -f CMakeFiles/hmi_node_client.dir/build.make CMakeFiles/hmi_node_client.dir/build
-.PHONY : hmi_node_client/fast
-
-src/client.o: src/client.cpp.o
-
-.PHONY : src/client.o
-
-# target to build an object file
-src/client.cpp.o:
-	$(MAKE) -f CMakeFiles/hmi_node_client.dir/build.make CMakeFiles/hmi_node_client.dir/src/client.cpp.o
-.PHONY : src/client.cpp.o
-
-src/client.i: src/client.cpp.i
-
-.PHONY : src/client.i
-
-# target to preprocess a source file
-src/client.cpp.i:
-	$(MAKE) -f CMakeFiles/hmi_node_client.dir/build.make CMakeFiles/hmi_node_client.dir/src/client.cpp.i
-.PHONY : src/client.cpp.i
-
-src/client.s: src/client.cpp.s
-
-.PHONY : src/client.s
-
-# target to generate assembly for a file
-src/client.cpp.s:
-	$(MAKE) -f CMakeFiles/hmi_node_client.dir/build.make CMakeFiles/hmi_node_client.dir/src/client.cpp.s
-.PHONY : src/client.cpp.s
-
 src/jsonprimitives.o: src/jsonprimitives.cpp.o
 
 .PHONY : src/jsonprimitives.o
@@ -313,6 +273,33 @@ src/server.cpp.s:
 	$(MAKE) -f CMakeFiles/hmi_node_server.dir/build.make CMakeFiles/hmi_node_server.dir/src/server.cpp.s
 .PHONY : src/server.cpp.s
 
+src/statusinformation.o: src/statusinformation.cpp.o
+
+.PHONY : src/statusinformation.o
+
+# target to build an object file
+src/statusinformation.cpp.o:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/src/statusinformation.cpp.o
+.PHONY : src/statusinformation.cpp.o
+
+src/statusinformation.i: src/statusinformation.cpp.i
+
+.PHONY : src/statusinformation.i
+
+# target to preprocess a source file
+src/statusinformation.cpp.i:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/src/statusinformation.cpp.i
+.PHONY : src/statusinformation.cpp.i
+
+src/statusinformation.s: src/statusinformation.cpp.s
+
+.PHONY : src/statusinformation.s
+
+# target to generate assembly for a file
+src/statusinformation.cpp.s:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/src/statusinformation.cpp.s
+.PHONY : src/statusinformation.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -323,23 +310,22 @@ help:
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... edit_cache"
 	@echo "... hmi_node_uninstall"
 	@echo "... uninstall"
 	@echo "... lib"
 	@echo "... hmi_node_server"
-	@echo "... hmi_node_client"
+	@echo "... edit_cache"
 	@echo "... install/local"
 	@echo "... test"
-	@echo "... src/client.o"
-	@echo "... src/client.i"
-	@echo "... src/client.s"
 	@echo "... src/jsonprimitives.o"
 	@echo "... src/jsonprimitives.i"
 	@echo "... src/jsonprimitives.s"
 	@echo "... src/server.o"
 	@echo "... src/server.i"
 	@echo "... src/server.s"
+	@echo "... src/statusinformation.o"
+	@echo "... src/statusinformation.i"
+	@echo "... src/statusinformation.s"
 .PHONY : help
 
 

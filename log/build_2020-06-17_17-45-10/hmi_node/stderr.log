@@ -1,0 +1,7 @@
+[1.402s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/server.cpp:[m[K In member function ‘[01m[Kvoid Server::send_status()[m[K’:
+[1.402s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/server.cpp:240:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.402s]      float [01;35m[Kx[m[K = 250.5f, y = 333.4f;
+[1.402s]            [01;35m[K^[m[K
+[1.402s] [01m[K/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/server.cpp:240:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ky[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.402s]      float x = 250.5f, [01;35m[Ky[m[K = 333.4f;
+[1.402s]                        [01;35m[K^[m[K

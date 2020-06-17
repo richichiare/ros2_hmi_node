@@ -310,7 +310,7 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install("TARGETS" "hmi_node_server" "hmi_node_client" "DESTINATION" "lib/hmi_node")
+# install("TARGETS" "hmi_node_server" "DESTINATION" "lib/hmi_node")
 include("/home/riccardochiaretti/alba_v2_hmi/build/hmi_node/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(DIRECTORY "launch" "DESTINATION" "share/hmi_node/")

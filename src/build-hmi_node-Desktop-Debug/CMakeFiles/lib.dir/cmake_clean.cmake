@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/lib.dir/src/jsonprimitives.cpp.o"
+  "CMakeFiles/lib.dir/src/statusinformation.cpp.o"
   "liblib.pdb"
   "liblib.a"
 )

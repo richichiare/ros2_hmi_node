@@ -1,0 +1,15 @@
+[0.011s] Invoking command in '/home/riccardochiaretti/alba_v2_hmi/build/hmi_node': /usr/bin/cmake --build /home/riccardochiaretti/alba_v2_hmi/build/hmi_node -- -j12 -l12
+[0.053s] [ 60%] Built target lib
+[0.064s] [35m[1mScanning dependencies of target hmi_node_server[0m
+[0.096s] [ 80%] [32mBuilding CXX object CMakeFiles/hmi_node_server.dir/src/server.cpp.o[0m
+[4.448s] [100%] [32m[1mLinking CXX executable hmi_node_server[0m
+[4.889s] CMakeFiles/hmi_node_server.dir/src/server.cpp.o: In function `Server::send_status()':
+[4.889s] server.cpp:(.text+0x311c): undefined reference to `build_status_resp_message(nlohmann::basic_json<std::map, std::vector, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer>&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, float const&, float const&, float const&, float const&, short const&, short const&, bool const&)'
+[4.889s] collect2: error: ld returned 1 exit status
+[4.890s] CMakeFiles/hmi_node_server.dir/build.make:179: recipe for target 'hmi_node_server' failed
+[4.891s] make[2]: *** [hmi_node_server] Error 1
+[4.891s] make[1]: *** [CMakeFiles/hmi_node_server.dir/all] Error 2
+[4.891s] make: *** [all] Error 2
+[4.891s] CMakeFiles/Makefile2:168: recipe for target 'CMakeFiles/hmi_node_server.dir/all' failed
+[4.891s] Makefile:140: recipe for target 'all' failed
+[4.892s] Invoked command in '/home/riccardochiaretti/alba_v2_hmi/build/hmi_node' returned '2': /usr/bin/cmake --build /home/riccardochiaretti/alba_v2_hmi/build/hmi_node -- -j12 -l12

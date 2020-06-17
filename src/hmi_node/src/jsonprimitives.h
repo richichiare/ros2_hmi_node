@@ -3,6 +3,8 @@
 
 #include "nlohmann/json.hpp"
 
+const std::string DELIMITER = "\\#$";
+
 using json = nlohmann::json;
 
 void build_init_resp_message(json &j,
@@ -18,7 +20,8 @@ void build_status_resp_message(json &j,
                                const float &x_loc, const float &y_loc,
                                const float &x_target, const float &y_target,
                                const short &status_code,
-                               const short battery_level,
+                               const short &battery_level,
                                const bool &sensor_feedback_code);
 
+void append_delimiter(std::string &json_string);
 #endif // JSONPRIMITIVES_H

@@ -5,3 +5,6 @@ CMakeFiles/lib.dir/src/jsonprimitives.cpp.o: /home/riccardochiaretti/alba_v2_hmi
 CMakeFiles/lib.dir/src/jsonprimitives.cpp.o: /home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/jsonprimitives.h
 CMakeFiles/lib.dir/src/jsonprimitives.cpp.o: /home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/nlohmann/json.hpp
 
+CMakeFiles/lib.dir/src/statusinformation.cpp.o: /home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/statusinformation.cpp
+CMakeFiles/lib.dir/src/statusinformation.cpp.o: /home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/statusinformation.h
+

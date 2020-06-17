@@ -25,21 +25,20 @@ find_package(ament_index_cpp REQUIRED)
 find_package(yaml_cpp_vendor REQUIRED)
 find_package(tf2_ros REQUIRED)
 
-add_library(lib src/jsonprimitives.cpp)
+add_library(lib src/jsonprimitives.cpp src/statusinformation.cpp)
 
-#add_executable(hmi_node_server src/main.cpp src/EthernetPrimitives.cpp src/server.cpp)
 add_executable(hmi_node_server src/server.cpp)
-add_executable(hmi_node_client src/client.cpp)
+#add_executable(hmi_node_client src/client.cpp)
 
 target_link_libraries(hmi_node_server lib)
 
 
-ament_target_dependencies(hmi_node_server rclcpp geometry_msgs ament_index_cpp yaml_cpp_vendor)
-ament_target_dependencies(hmi_node_client rclcpp nav_msgs tf2_ros tf2_geometry_msgs ament_index_cpp yaml_cpp_vendor)
+ament_target_dependencies(hmi_node_server rclcpp geometry_msgs nav_msgs tf2_ros tf2_geometry_msgs ament_index_cpp yaml_cpp_vendor)
+#ament_target_dependencies(hmi_node_client rclcpp nav_msgs tf2_ros tf2_geometry_msgs ament_index_cpp yaml_cpp_vendor)
 
 install(TARGETS
   hmi_node_server
-  hmi_node_client
+# hmi_node_client
   DESTINATION lib/${PROJECT_NAME})
 
 # Install launch files.

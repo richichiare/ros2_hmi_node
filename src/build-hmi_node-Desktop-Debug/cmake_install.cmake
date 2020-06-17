@@ -49,30 +49,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/hmi_node/hmi_node_server")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/hmi_node/hmi_node_server"
-         OLD_RPATH "/home/riccardochiaretti/ros2_eloquent/install/rclcpp/lib:/home/riccardochiaretti/ros2_eloquent/install/rcl/lib:/home/riccardochiaretti/ros2_eloquent/install/rcl_interfaces/lib:/home/riccardochiaretti/ros2_eloquent/install/rmw_implementation/lib:/home/riccardochiaretti/ros2_eloquent/install/rmw/lib:/home/riccardochiaretti/ros2_eloquent/install/rcutils/lib:/home/riccardochiaretti/ros2_eloquent/install/rcl_logging_spdlog/lib:/home/riccardochiaretti/ros2_eloquent/install/rcpputils/lib:/home/riccardochiaretti/ros2_eloquent/install/rosgraph_msgs/lib:/home/riccardochiaretti/ros2_eloquent/install/rcl_yaml_param_parser/lib:/home/riccardochiaretti/ros2_eloquent/install/tracetools/lib:/home/riccardochiaretti/ros2_eloquent/install/builtin_interfaces/lib:/home/riccardochiaretti/ros2_eloquent/install/std_msgs/lib:/home/riccardochiaretti/ros2_eloquent/install/rosidl_typesupport_cpp/lib:/home/riccardochiaretti/ros2_eloquent/install/rosidl_typesupport_c/lib:/home/riccardochiaretti/ros2_eloquent/install/rosidl_typesupport_introspection_cpp/lib:/home/riccardochiaretti/ros2_eloquent/install/rosidl_typesupport_introspection_c/lib:/home/riccardochiaretti/ros2_eloquent/install/rosidl_generator_c/lib:/home/riccardochiaretti/ros2_eloquent/install/geometry_msgs/lib:/home/riccardochiaretti/ros2_eloquent/install/ament_index_cpp/lib:/home/riccardochiaretti/ros2_eloquent/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/lib:"
-         NEW_RPATH "")
-    if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/hmi_node/hmi_node_server")
-    endif()
-  endif()
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/hmi_node/hmi_node_client" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/hmi_node/hmi_node_client")
-    file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/hmi_node/hmi_node_client"
-         RPATH "")
-  endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/hmi_node" TYPE EXECUTABLE FILES "/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/hmi_node_client")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/hmi_node/hmi_node_client" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/hmi_node/hmi_node_client")
-    file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/hmi_node/hmi_node_client"
          OLD_RPATH "/home/riccardochiaretti/ros2_eloquent/install/nav_msgs/lib:/home/riccardochiaretti/ros2_eloquent/install/orocos_kdl/lib:/home/riccardochiaretti/ros2_eloquent/install/tf2_ros/lib:/home/riccardochiaretti/ros2_eloquent/install/message_filters/lib:/home/riccardochiaretti/ros2_eloquent/install/rclcpp/lib:/home/riccardochiaretti/ros2_eloquent/install/rcl/lib:/home/riccardochiaretti/ros2_eloquent/install/rcl_interfaces/lib:/home/riccardochiaretti/ros2_eloquent/install/rmw_implementation/lib:/home/riccardochiaretti/ros2_eloquent/install/rmw/lib:/home/riccardochiaretti/ros2_eloquent/install/rcutils/lib:/home/riccardochiaretti/ros2_eloquent/install/rcl_logging_spdlog/lib:/home/riccardochiaretti/ros2_eloquent/install/rcpputils/lib:/home/riccardochiaretti/ros2_eloquent/install/rosgraph_msgs/lib:/home/riccardochiaretti/ros2_eloquent/install/rcl_yaml_param_parser/lib:/home/riccardochiaretti/ros2_eloquent/install/tracetools/lib:/home/riccardochiaretti/ros2_eloquent/install/std_msgs/lib:/home/riccardochiaretti/ros2_eloquent/install/geometry_msgs/lib:/home/riccardochiaretti/ros2_eloquent/install/builtin_interfaces/lib:/home/riccardochiaretti/ros2_eloquent/install/unique_identifier_msgs/lib:/home/riccardochiaretti/ros2_eloquent/install/rosidl_typesupport_cpp/lib:/home/riccardochiaretti/ros2_eloquent/install/rosidl_typesupport_c/lib:/home/riccardochiaretti/ros2_eloquent/install/rosidl_typesupport_introspection_cpp/lib:/home/riccardochiaretti/ros2_eloquent/install/rosidl_typesupport_introspection_c/lib:/home/riccardochiaretti/ros2_eloquent/install/rosidl_generator_c/lib:/home/riccardochiaretti/ros2_eloquent/install/action_msgs/lib:/home/riccardochiaretti/ros2_eloquent/install/tf2_msgs/lib:/home/riccardochiaretti/ros2_eloquent/install/tf2/lib:/home/riccardochiaretti/ros2_eloquent/install/ament_index_cpp/lib:/home/riccardochiaretti/ros2_eloquent/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/hmi_node/hmi_node_client")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/hmi_node/hmi_node_server")
     endif()
   endif()
 endif()

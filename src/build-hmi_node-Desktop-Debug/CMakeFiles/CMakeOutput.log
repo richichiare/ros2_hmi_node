@@ -28,28 +28,28 @@ The CXX compiler identification is GNU, found in "/home/riccardochiaretti/alba_v
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d0c15/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d0c15.dir/build.make CMakeFiles/cmTC_d0c15.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_16087/fast"
+/usr/bin/make -f CMakeFiles/cmTC_16087.dir/build.make CMakeFiles/cmTC_16087.dir/build
 make[1]: Entering directory '/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d0c15.dir/testCCompiler.c.o
-/usr/bin/gcc    -o CMakeFiles/cmTC_d0c15.dir/testCCompiler.c.o   -c /home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_d0c15
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0c15.dir/link.txt --verbose=1
-/usr/bin/gcc      CMakeFiles/cmTC_d0c15.dir/testCCompiler.c.o  -o cmTC_d0c15 
+Building C object CMakeFiles/cmTC_16087.dir/testCCompiler.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_16087.dir/testCCompiler.c.o   -c /home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_16087
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16087.dir/link.txt --verbose=1
+/usr/bin/gcc      CMakeFiles/cmTC_16087.dir/testCCompiler.c.o  -o cmTC_16087 
 make[1]: Leaving directory '/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_59d4f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_59d4f.dir/build.make CMakeFiles/cmTC_59d4f.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_d1296/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d1296.dir/build.make CMakeFiles/cmTC_d1296.dir/build
 make[1]: Entering directory '/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_59d4f.dir/CMakeCCompilerABI.c.o
-/usr/bin/gcc    -o CMakeFiles/cmTC_59d4f.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_59d4f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59d4f.dir/link.txt --verbose=1
-/usr/bin/gcc     -v CMakeFiles/cmTC_59d4f.dir/CMakeCCompilerABI.c.o  -o cmTC_59d4f 
+Building C object CMakeFiles/cmTC_d1296.dir/CMakeCCompilerABI.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_d1296.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_d1296
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1296.dir/link.txt --verbose=1
+/usr/bin/gcc     -v CMakeFiles/cmTC_d1296.dir/CMakeCCompilerABI.c.o  -o cmTC_d1296 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/gcc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -61,9 +61,9 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_59d4f' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4zvOmg.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_59d4f /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_59d4f.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_59d4f' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d1296' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdbYzLP.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_d1296 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_d1296.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d1296' '-mtune=generic' '-march=x86-64'
 make[1]: Leaving directory '/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/CMakeTmp'
 
 
@@ -71,14 +71,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_59d4f/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_59d4f.dir/build.make CMakeFiles/cmTC_59d4f.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_d1296/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_d1296.dir/build.make CMakeFiles/cmTC_d1296.dir/build]
   ignore line: [make[1]: Entering directory '/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_59d4f.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/gcc    -o CMakeFiles/cmTC_59d4f.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_59d4f]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59d4f.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/gcc     -v CMakeFiles/cmTC_59d4f.dir/CMakeCCompilerABI.c.o  -o cmTC_59d4f ]
+  ignore line: [Building C object CMakeFiles/cmTC_d1296.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/gcc    -o CMakeFiles/cmTC_d1296.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_d1296]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1296.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gcc     -v CMakeFiles/cmTC_d1296.dir/CMakeCCompilerABI.c.o  -o cmTC_d1296 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/gcc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -90,13 +90,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_59d4f' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4zvOmg.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_59d4f /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_59d4f.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d1296' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdbYzLP.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_d1296 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_d1296.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc4zvOmg.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccdbYzLP.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -114,7 +114,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_59d4f] ==> ignore
+    arg [cmTC_d1296] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -126,7 +126,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_59d4f.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_d1296.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -158,14 +158,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b466f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b466f.dir/build.make CMakeFiles/cmTC_b466f.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_8c938/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8c938.dir/build.make CMakeFiles/cmTC_8c938.dir/build
 make[1]: Entering directory '/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b466f.dir/feature_tests.c.o
-/usr/bin/gcc   -std=c11 -o CMakeFiles/cmTC_b466f.dir/feature_tests.c.o   -c /home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_b466f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b466f.dir/link.txt --verbose=1
-/usr/bin/gcc      CMakeFiles/cmTC_b466f.dir/feature_tests.c.o  -o cmTC_b466f 
+Building C object CMakeFiles/cmTC_8c938.dir/feature_tests.c.o
+/usr/bin/gcc   -std=c11 -o CMakeFiles/cmTC_8c938.dir/feature_tests.c.o   -c /home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_8c938
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c938.dir/link.txt --verbose=1
+/usr/bin/gcc      CMakeFiles/cmTC_8c938.dir/feature_tests.c.o  -o cmTC_8c938 
 make[1]: Leaving directory '/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/CMakeTmp'
 
 
@@ -178,14 +178,14 @@ make[1]: Leaving directory '/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_no
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e57e9/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e57e9.dir/build.make CMakeFiles/cmTC_e57e9.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_da666/fast"
+/usr/bin/make -f CMakeFiles/cmTC_da666.dir/build.make CMakeFiles/cmTC_da666.dir/build
 make[1]: Entering directory '/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e57e9.dir/feature_tests.c.o
-/usr/bin/gcc   -std=c99 -o CMakeFiles/cmTC_e57e9.dir/feature_tests.c.o   -c /home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_e57e9
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e57e9.dir/link.txt --verbose=1
-/usr/bin/gcc      CMakeFiles/cmTC_e57e9.dir/feature_tests.c.o  -o cmTC_e57e9 
+Building C object CMakeFiles/cmTC_da666.dir/feature_tests.c.o
+/usr/bin/gcc   -std=c99 -o CMakeFiles/cmTC_da666.dir/feature_tests.c.o   -c /home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_da666
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da666.dir/link.txt --verbose=1
+/usr/bin/gcc      CMakeFiles/cmTC_da666.dir/feature_tests.c.o  -o cmTC_da666 
 make[1]: Leaving directory '/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/CMakeTmp'
 
 
@@ -198,14 +198,14 @@ make[1]: Leaving directory '/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_no
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_23d1a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_23d1a.dir/build.make CMakeFiles/cmTC_23d1a.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_ce16d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ce16d.dir/build.make CMakeFiles/cmTC_ce16d.dir/build
 make[1]: Entering directory '/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_23d1a.dir/feature_tests.c.o
-/usr/bin/gcc   -std=c90 -o CMakeFiles/cmTC_23d1a.dir/feature_tests.c.o   -c /home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_23d1a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23d1a.dir/link.txt --verbose=1
-/usr/bin/gcc      CMakeFiles/cmTC_23d1a.dir/feature_tests.c.o  -o cmTC_23d1a 
+Building C object CMakeFiles/cmTC_ce16d.dir/feature_tests.c.o
+/usr/bin/gcc   -std=c90 -o CMakeFiles/cmTC_ce16d.dir/feature_tests.c.o   -c /home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_ce16d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce16d.dir/link.txt --verbose=1
+/usr/bin/gcc      CMakeFiles/cmTC_ce16d.dir/feature_tests.c.o  -o cmTC_ce16d 
 make[1]: Leaving directory '/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/CMakeTmp'
 
 
@@ -216,28 +216,28 @@ make[1]: Leaving directory '/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_no
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4cf49/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4cf49.dir/build.make CMakeFiles/cmTC_4cf49.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_77d5b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_77d5b.dir/build.make CMakeFiles/cmTC_77d5b.dir/build
 make[1]: Entering directory '/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_4cf49.dir/testCXXCompiler.cxx.o
-/usr/bin/g++     -o CMakeFiles/cmTC_4cf49.dir/testCXXCompiler.cxx.o -c /home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_4cf49
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4cf49.dir/link.txt --verbose=1
-/usr/bin/g++       CMakeFiles/cmTC_4cf49.dir/testCXXCompiler.cxx.o  -o cmTC_4cf49 
+Building CXX object CMakeFiles/cmTC_77d5b.dir/testCXXCompiler.cxx.o
+/usr/bin/g++     -o CMakeFiles/cmTC_77d5b.dir/testCXXCompiler.cxx.o -c /home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_77d5b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77d5b.dir/link.txt --verbose=1
+/usr/bin/g++       CMakeFiles/cmTC_77d5b.dir/testCXXCompiler.cxx.o  -o cmTC_77d5b 
 make[1]: Leaving directory '/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9abae/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9abae.dir/build.make CMakeFiles/cmTC_9abae.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_eadc1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_eadc1.dir/build.make CMakeFiles/cmTC_eadc1.dir/build
 make[1]: Entering directory '/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_9abae.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/g++     -o CMakeFiles/cmTC_9abae.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_9abae
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9abae.dir/link.txt --verbose=1
-/usr/bin/g++      -v CMakeFiles/cmTC_9abae.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_9abae 
+Building CXX object CMakeFiles/cmTC_eadc1.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/g++     -o CMakeFiles/cmTC_eadc1.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_eadc1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eadc1.dir/link.txt --verbose=1
+/usr/bin/g++      -v CMakeFiles/cmTC_eadc1.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_eadc1 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/g++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -249,9 +249,9 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9abae' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTBqldU.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_9abae /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_9abae.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9abae' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_eadc1' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccupHe9t.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_eadc1 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_eadc1.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_eadc1' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
 make[1]: Leaving directory '/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/CMakeTmp'
 
 
@@ -259,14 +259,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_9abae/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_9abae.dir/build.make CMakeFiles/cmTC_9abae.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_eadc1/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_eadc1.dir/build.make CMakeFiles/cmTC_eadc1.dir/build]
   ignore line: [make[1]: Entering directory '/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_9abae.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/g++     -o CMakeFiles/cmTC_9abae.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_9abae]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9abae.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/g++      -v CMakeFiles/cmTC_9abae.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_9abae ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_eadc1.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/g++     -o CMakeFiles/cmTC_eadc1.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_eadc1]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eadc1.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/g++      -v CMakeFiles/cmTC_eadc1.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_eadc1 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/g++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -278,13 +278,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9abae' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTBqldU.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_9abae /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_9abae.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_eadc1' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccupHe9t.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_eadc1 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_eadc1.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccTBqldU.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccupHe9t.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -302,7 +302,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_9abae] ==> ignore
+    arg [cmTC_eadc1] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -314,7 +314,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_9abae.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_eadc1.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -342,14 +342,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
 Change Dir: /home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_79bef/fast"
-/usr/bin/make -f CMakeFiles/cmTC_79bef.dir/build.make CMakeFiles/cmTC_79bef.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_7729d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7729d.dir/build.make CMakeFiles/cmTC_7729d.dir/build
 make[1]: Entering directory '/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_79bef.dir/feature_tests.cxx.o
-/usr/bin/g++    -std=c++1z -o CMakeFiles/cmTC_79bef.dir/feature_tests.cxx.o -c /home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_79bef
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79bef.dir/link.txt --verbose=1
-/usr/bin/g++       CMakeFiles/cmTC_79bef.dir/feature_tests.cxx.o  -o cmTC_79bef 
+Building CXX object CMakeFiles/cmTC_7729d.dir/feature_tests.cxx.o
+/usr/bin/g++    -std=c++1z -o CMakeFiles/cmTC_7729d.dir/feature_tests.cxx.o -c /home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_7729d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7729d.dir/link.txt --verbose=1
+/usr/bin/g++       CMakeFiles/cmTC_7729d.dir/feature_tests.cxx.o  -o cmTC_7729d 
 make[1]: Leaving directory '/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/CMakeTmp'
 
 
@@ -415,14 +415,14 @@ make[1]: Leaving directory '/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_no
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d5468/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d5468.dir/build.make CMakeFiles/cmTC_d5468.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_9771b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9771b.dir/build.make CMakeFiles/cmTC_9771b.dir/build
 make[1]: Entering directory '/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_d5468.dir/feature_tests.cxx.o
-/usr/bin/g++    -std=c++14 -o CMakeFiles/cmTC_d5468.dir/feature_tests.cxx.o -c /home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_d5468
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5468.dir/link.txt --verbose=1
-/usr/bin/g++       CMakeFiles/cmTC_d5468.dir/feature_tests.cxx.o  -o cmTC_d5468 
+Building CXX object CMakeFiles/cmTC_9771b.dir/feature_tests.cxx.o
+/usr/bin/g++    -std=c++14 -o CMakeFiles/cmTC_9771b.dir/feature_tests.cxx.o -c /home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_9771b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9771b.dir/link.txt --verbose=1
+/usr/bin/g++       CMakeFiles/cmTC_9771b.dir/feature_tests.cxx.o  -o cmTC_9771b 
 make[1]: Leaving directory '/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/CMakeTmp'
 
 
@@ -488,14 +488,14 @@ make[1]: Leaving directory '/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_no
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1382e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1382e.dir/build.make CMakeFiles/cmTC_1382e.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_2b487/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2b487.dir/build.make CMakeFiles/cmTC_2b487.dir/build
 make[1]: Entering directory '/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_1382e.dir/feature_tests.cxx.o
-/usr/bin/g++    -std=c++11 -o CMakeFiles/cmTC_1382e.dir/feature_tests.cxx.o -c /home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_1382e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1382e.dir/link.txt --verbose=1
-/usr/bin/g++       CMakeFiles/cmTC_1382e.dir/feature_tests.cxx.o  -o cmTC_1382e 
+Building CXX object CMakeFiles/cmTC_2b487.dir/feature_tests.cxx.o
+/usr/bin/g++    -std=c++11 -o CMakeFiles/cmTC_2b487.dir/feature_tests.cxx.o -c /home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_2b487
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b487.dir/link.txt --verbose=1
+/usr/bin/g++       CMakeFiles/cmTC_2b487.dir/feature_tests.cxx.o  -o cmTC_2b487 
 make[1]: Leaving directory '/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/CMakeTmp'
 
 
@@ -561,14 +561,14 @@ make[1]: Leaving directory '/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_no
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_99a71/fast"
-/usr/bin/make -f CMakeFiles/cmTC_99a71.dir/build.make CMakeFiles/cmTC_99a71.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_d684c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d684c.dir/build.make CMakeFiles/cmTC_d684c.dir/build
 make[1]: Entering directory '/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_99a71.dir/feature_tests.cxx.o
-/usr/bin/g++    -std=c++98 -o CMakeFiles/cmTC_99a71.dir/feature_tests.cxx.o -c /home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_99a71
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99a71.dir/link.txt --verbose=1
-/usr/bin/g++       CMakeFiles/cmTC_99a71.dir/feature_tests.cxx.o  -o cmTC_99a71 
+Building CXX object CMakeFiles/cmTC_d684c.dir/feature_tests.cxx.o
+/usr/bin/g++    -std=c++98 -o CMakeFiles/cmTC_d684c.dir/feature_tests.cxx.o -c /home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_d684c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d684c.dir/link.txt --verbose=1
+/usr/bin/g++       CMakeFiles/cmTC_d684c.dir/feature_tests.cxx.o  -o cmTC_d684c 
 make[1]: Leaving directory '/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/CMakeTmp'
 
 
@@ -632,28 +632,28 @@ make[1]: Leaving directory '/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_no
 Determining if the include file pthread.h exists passed with the following output:
 Change Dir: /home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c9b00/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c9b00.dir/build.make CMakeFiles/cmTC_c9b00.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_59670/fast"
+/usr/bin/make -f CMakeFiles/cmTC_59670.dir/build.make CMakeFiles/cmTC_59670.dir/build
 make[1]: Entering directory '/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c9b00.dir/CheckIncludeFile.c.o
-/usr/bin/gcc    -o CMakeFiles/cmTC_c9b00.dir/CheckIncludeFile.c.o   -c /home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_c9b00
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9b00.dir/link.txt --verbose=1
-/usr/bin/gcc      CMakeFiles/cmTC_c9b00.dir/CheckIncludeFile.c.o  -o cmTC_c9b00 
+Building C object CMakeFiles/cmTC_59670.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_59670.dir/CheckIncludeFile.c.o   -c /home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_59670
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59670.dir/link.txt --verbose=1
+/usr/bin/gcc      CMakeFiles/cmTC_59670.dir/CheckIncludeFile.c.o  -o cmTC_59670 
 make[1]: Leaving directory '/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
 Change Dir: /home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_748de/fast"
-/usr/bin/make -f CMakeFiles/cmTC_748de.dir/build.make CMakeFiles/cmTC_748de.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_95fbb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_95fbb.dir/build.make CMakeFiles/cmTC_95fbb.dir/build
 make[1]: Entering directory '/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_748de.dir/CheckFunctionExists.c.o
-/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_748de.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_748de
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_748de.dir/link.txt --verbose=1
-/usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_748de.dir/CheckFunctionExists.c.o  -o cmTC_748de -lpthread 
+Building C object CMakeFiles/cmTC_95fbb.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_95fbb.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_95fbb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95fbb.dir/link.txt --verbose=1
+/usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_95fbb.dir/CheckFunctionExists.c.o  -o cmTC_95fbb -lpthread 
 make[1]: Leaving directory '/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles/CMakeTmp'
 
 

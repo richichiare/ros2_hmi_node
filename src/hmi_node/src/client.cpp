@@ -6,12 +6,23 @@ using json = nlohmann::json;
 Client::Client() : Node("hmi_node_client") {
 
     connect_to_hmi_interface();
+
     setup_node_parameters();
+
     init_transform();
 
-    hmi_send();
+//    hmi_send();
 
     odom_sub = this->create_subscription<nav_msgs::msg::Odometry>("odom",  10, std::bind(&Client::odom_callback, this, std::placeholders::_1));
+
+//    YAML::Node rooms = YAML::LoadFile(path_to_rooms);
+//    for(YAML::const_iterator it = rooms.begin(); it != rooms.end(); ++it) {
+//        room_position.insert(std::pair<std::string, std::vector<float>>(it->first.as<std::string>(), it->second.as<std::vector<float>>()));
+//    }
+
+//    std::ofstream fout1(path_to_rooms.c_str());
+//    fout1 << param_file;
+//    fout1.close();
 }
 
 void Client::client_connect() {
@@ -22,12 +33,13 @@ void Client::client_connect() {
     RCLCPP_INFO(this->get_logger(), "Connected");
 }
 
-void Client::hmi_send() {
-    //send(socket_fd , &m , sizeof (MessageInit), 0);
-    RCLCPP_INFO(this->get_logger(), "Sent");
-}
+//void Client::hmi_send(std::string message) {
+//    //send(socket_fd , &m , sizeof (MessageInit), 0);
+//    RCLCPP_INFO(this->get_logger(), "Sent");
+//}
 
 void Client::init_transform() {
+
     tf_buffer_ = std::make_shared<tf2_ros::Buffer>(rclcpp::Node::get_clock());
     auto timer_interface = std::make_shared<tf2_ros::CreateTimerROS>(rclcpp::Node::get_node_base_interface(), rclcpp::Node::get_node_timers_interface());
     tf_buffer_->setCreateTimerInterface(timer_interface);
@@ -41,8 +53,6 @@ void Client::connect_to_hmi_interface() {
     get_socket_fd_();
 
     memset(&address, 0, sizeof(address));
-
-    //HMI information
     address.sin_family = AF_INET;
     address.sin_port = htons(PORT);
     address.sin_addr.s_addr = inet_addr(server_address.c_str());

@@ -8,8 +8,8 @@
 
 class CommunicationPrimitives{
 public:
-    virtual void hmi_send(void) = 0;
-    virtual void hmi_receive(void) = 0;
+    virtual void hmi_send(std::string message) = 0;
+    virtual bool hmi_receive(void) = 0;
 protected:
     void get_socket_fd_() {
         if ((socket_fd = socket(AF_INET, SOCK_STREAM, 0)) == 0) {

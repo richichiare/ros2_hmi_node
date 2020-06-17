@@ -81,17 +81,43 @@ CMakeFiles/lib.dir/src/jsonprimitives.cpp.o.provides: CMakeFiles/lib.dir/src/jso
 CMakeFiles/lib.dir/src/jsonprimitives.cpp.o.provides.build: CMakeFiles/lib.dir/src/jsonprimitives.cpp.o
 
 
+CMakeFiles/lib.dir/src/statusinformation.cpp.o: CMakeFiles/lib.dir/flags.make
+CMakeFiles/lib.dir/src/statusinformation.cpp.o: /home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/statusinformation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/riccardochiaretti/alba_v2_hmi/build/hmi_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lib.dir/src/statusinformation.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lib.dir/src/statusinformation.cpp.o -c /home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/statusinformation.cpp
+
+CMakeFiles/lib.dir/src/statusinformation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lib.dir/src/statusinformation.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/statusinformation.cpp > CMakeFiles/lib.dir/src/statusinformation.cpp.i
+
+CMakeFiles/lib.dir/src/statusinformation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lib.dir/src/statusinformation.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/statusinformation.cpp -o CMakeFiles/lib.dir/src/statusinformation.cpp.s
+
+CMakeFiles/lib.dir/src/statusinformation.cpp.o.requires:
+
+.PHONY : CMakeFiles/lib.dir/src/statusinformation.cpp.o.requires
+
+CMakeFiles/lib.dir/src/statusinformation.cpp.o.provides: CMakeFiles/lib.dir/src/statusinformation.cpp.o.requires
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/src/statusinformation.cpp.o.provides.build
+.PHONY : CMakeFiles/lib.dir/src/statusinformation.cpp.o.provides
+
+CMakeFiles/lib.dir/src/statusinformation.cpp.o.provides.build: CMakeFiles/lib.dir/src/statusinformation.cpp.o
+
+
 # Object files for target lib
 lib_OBJECTS = \
-"CMakeFiles/lib.dir/src/jsonprimitives.cpp.o"
+"CMakeFiles/lib.dir/src/jsonprimitives.cpp.o" \
+"CMakeFiles/lib.dir/src/statusinformation.cpp.o"
 
 # External object files for target lib
 lib_EXTERNAL_OBJECTS =
 
 liblib.a: CMakeFiles/lib.dir/src/jsonprimitives.cpp.o
+liblib.a: CMakeFiles/lib.dir/src/statusinformation.cpp.o
 liblib.a: CMakeFiles/lib.dir/build.make
 liblib.a: CMakeFiles/lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/riccardochiaretti/alba_v2_hmi/build/hmi_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library liblib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/riccardochiaretti/alba_v2_hmi/build/hmi_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library liblib.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/lib.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lib.dir/link.txt --verbose=$(VERBOSE)
 
@@ -101,6 +127,7 @@ CMakeFiles/lib.dir/build: liblib.a
 .PHONY : CMakeFiles/lib.dir/build
 
 CMakeFiles/lib.dir/requires: CMakeFiles/lib.dir/src/jsonprimitives.cpp.o.requires
+CMakeFiles/lib.dir/requires: CMakeFiles/lib.dir/src/statusinformation.cpp.o.requires
 
 .PHONY : CMakeFiles/lib.dir/requires
 

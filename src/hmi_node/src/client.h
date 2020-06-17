@@ -15,8 +15,6 @@
 #include "ament_index_cpp/get_package_share_directory.hpp"
 #include "yaml-cpp/yaml.h"
 
-#define LOCALHOST
-
 class Client : public rclcpp::Node, public CommunicationPrimitives
 {
 public:

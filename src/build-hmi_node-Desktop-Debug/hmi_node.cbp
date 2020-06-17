@@ -57,16 +57,6 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="hmi_node_uninstall">
 				<Option working_dir="/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug"/>
 				<Option type="4"/>
@@ -141,9 +131,16 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/lib/cmake/yaml-cpp/../../../include"/>
+					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/tf2_geometry_msgs/include"/>
+					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/tf2_ros/include"/>
+					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/tf2_msgs/include"/>
+					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/action_msgs/include"/>
+					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/unique_identifier_msgs/include"/>
 					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include"/>
 					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/rcl/include"/>
 					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/tracetools/include"/>
+					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/tf2/include"/>
+					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/nav_msgs/include"/>
 					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/geometry_msgs/include"/>
 					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/std_msgs/include"/>
 					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/rosgraph_msgs/include"/>
@@ -161,7 +158,10 @@
 					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/rcutils/include"/>
 					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/rcpputils/include"/>
 					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/rcl_yaml_param_parser/include"/>
+					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/message_filters/include"/>
 					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/ament_index_cpp/include"/>
+					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/orocos_kdl/include"/>
+					<Add directory="/usr/include/eigen3"/>
 					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -187,9 +187,16 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/lib/cmake/yaml-cpp/../../../include"/>
+					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/tf2_geometry_msgs/include"/>
+					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/tf2_ros/include"/>
+					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/tf2_msgs/include"/>
+					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/action_msgs/include"/>
+					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/unique_identifier_msgs/include"/>
 					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include"/>
 					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/rcl/include"/>
 					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/tracetools/include"/>
+					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/tf2/include"/>
+					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/nav_msgs/include"/>
 					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/geometry_msgs/include"/>
 					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/std_msgs/include"/>
 					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/rosgraph_msgs/include"/>
@@ -207,7 +214,10 @@
 					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/rcutils/include"/>
 					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/rcpputils/include"/>
 					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/rcl_yaml_param_parser/include"/>
+					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/message_filters/include"/>
 					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/ament_index_cpp/include"/>
+					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/orocos_kdl/include"/>
+					<Add directory="/usr/include/eigen3"/>
 					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -225,113 +235,11 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="hmi_node_client">
-				<Option output="/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/hmi_node_client" prefix_auto="0" extension_auto="0"/>
+			<Target title="edit_cache">
 				<Option working_dir="/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/lib/cmake/yaml-cpp/../../../include"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/tf2_geometry_msgs/include"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/tf2_ros/include"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/tf2_msgs/include"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/action_msgs/include"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/unique_identifier_msgs/include"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/rcl/include"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/tracetools/include"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/tf2/include"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/nav_msgs/include"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/geometry_msgs/include"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/std_msgs/include"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/rosgraph_msgs/include"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/rcl_interfaces/include"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/builtin_interfaces/include"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/rosidl_typesupport_cpp/include"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/rosidl_typesupport_c/include"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/rosidl_typesupport_introspection_cpp/include"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/rosidl_typesupport_introspection_c/include"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/rosidl_generator_cpp/include"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/rmw/include"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/rosidl_generator_c/include"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/rosidl_typesupport_interface/include"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/rcl_logging_spdlog/include"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/rcutils/include"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/rcpputils/include"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/rcl_yaml_param_parser/include"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/message_filters/include"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/ament_index_cpp/include"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/orocos_kdl/include"/>
-					<Add directory="/usr/include/eigen3"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
+				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/Makefile&quot;  VERBOSE=1 hmi_node_client"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="hmi_node_client/fast">
-				<Option output="/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/hmi_node_client" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/lib/cmake/yaml-cpp/../../../include"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/tf2_geometry_msgs/include"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/tf2_ros/include"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/tf2_msgs/include"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/action_msgs/include"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/unique_identifier_msgs/include"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/rclcpp/include"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/rcl/include"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/tracetools/include"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/tf2/include"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/nav_msgs/include"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/geometry_msgs/include"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/std_msgs/include"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/rosgraph_msgs/include"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/rcl_interfaces/include"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/builtin_interfaces/include"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/rosidl_typesupport_cpp/include"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/rosidl_typesupport_c/include"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/rosidl_typesupport_introspection_cpp/include"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/rosidl_typesupport_introspection_c/include"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/rosidl_generator_cpp/include"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/rmw/include"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/rosidl_generator_c/include"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/rosidl_typesupport_interface/include"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/rcl_logging_spdlog/include"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/rcutils/include"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/rcpputils/include"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/rcl_yaml_param_parser/include"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/message_filters/include"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/ament_index_cpp/include"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/orocos_kdl/include"/>
-					<Add directory="/usr/include/eigen3"/>
-					<Add directory="/home/riccardochiaretti/ros2_eloquent/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/Makefile&quot;  VERBOSE=1 hmi_node_client/fast"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -358,12 +266,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/client.cpp">
-			<Option target="hmi_node_client"/>
-		</Unit>
-		<Unit filename="/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/client.h">
-			<Option target="hmi_node_client"/>
-		</Unit>
 		<Unit filename="/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/jsonprimitives.cpp">
 			<Option target="lib"/>
 		</Unit>
@@ -375,6 +277,12 @@
 		</Unit>
 		<Unit filename="/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/server.h">
 			<Option target="hmi_node_server"/>
+		</Unit>
+		<Unit filename="/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/statusinformation.cpp">
+			<Option target="lib"/>
+		</Unit>
+		<Unit filename="/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/src/statusinformation.h">
+			<Option target="lib"/>
 		</Unit>
 		<Unit filename="/home/riccardochiaretti/alba_v2_hmi/src/hmi_node/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

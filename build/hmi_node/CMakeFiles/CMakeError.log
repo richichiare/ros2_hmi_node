@@ -1,22 +1,22 @@
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/riccardochiaretti/alba_v2_hmi/build/hmi_node/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_88381/fast"
-/usr/bin/make -f CMakeFiles/cmTC_88381.dir/build.make CMakeFiles/cmTC_88381.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_771f3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_771f3.dir/build.make CMakeFiles/cmTC_771f3.dir/build
 make[1]: Entering directory '/home/riccardochiaretti/alba_v2_hmi/build/hmi_node/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_88381.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_88381.dir/CheckSymbolExists.c.o   -c /home/riccardochiaretti/alba_v2_hmi/build/hmi_node/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_88381
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88381.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_88381.dir/CheckSymbolExists.c.o  -o cmTC_88381 
-CMakeFiles/cmTC_88381.dir/CheckSymbolExists.c.o: In function `main':
+Building C object CMakeFiles/cmTC_771f3.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_771f3.dir/CheckSymbolExists.c.o   -c /home/riccardochiaretti/alba_v2_hmi/build/hmi_node/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_771f3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_771f3.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_771f3.dir/CheckSymbolExists.c.o  -o cmTC_771f3 
+CMakeFiles/cmTC_771f3.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_88381.dir/build.make:97: recipe for target 'cmTC_88381' failed
-make[1]: *** [cmTC_88381] Error 1
+CMakeFiles/cmTC_771f3.dir/build.make:97: recipe for target 'cmTC_771f3' failed
+make[1]: *** [cmTC_771f3] Error 1
 make[1]: Leaving directory '/home/riccardochiaretti/alba_v2_hmi/build/hmi_node/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_88381/fast' failed
-make: *** [cmTC_88381/fast] Error 2
+Makefile:126: recipe for target 'cmTC_771f3/fast' failed
+make: *** [cmTC_771f3/fast] Error 2
 
 File /home/riccardochiaretti/alba_v2_hmi/build/hmi_node/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -36,20 +36,20 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/riccardochiaretti/alba_v2_hmi/build/hmi_node/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_7c434/fast"
-/usr/bin/make -f CMakeFiles/cmTC_7c434.dir/build.make CMakeFiles/cmTC_7c434.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_d8a69/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d8a69.dir/build.make CMakeFiles/cmTC_d8a69.dir/build
 make[1]: Entering directory '/home/riccardochiaretti/alba_v2_hmi/build/hmi_node/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_7c434.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_7c434.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_7c434
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c434.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_7c434.dir/CheckFunctionExists.c.o  -o cmTC_7c434 -lpthreads 
+Building C object CMakeFiles/cmTC_d8a69.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_d8a69.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d8a69
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8a69.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_d8a69.dir/CheckFunctionExists.c.o  -o cmTC_d8a69 -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_7c434.dir/build.make:97: recipe for target 'cmTC_7c434' failed
-make[1]: *** [cmTC_7c434] Error 1
+CMakeFiles/cmTC_d8a69.dir/build.make:97: recipe for target 'cmTC_d8a69' failed
+make[1]: *** [cmTC_d8a69] Error 1
 make[1]: Leaving directory '/home/riccardochiaretti/alba_v2_hmi/build/hmi_node/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_7c434/fast' failed
-make: *** [cmTC_7c434/fast] Error 2
+Makefile:126: recipe for target 'cmTC_d8a69/fast' failed
+make: *** [cmTC_d8a69/fast] Error 2
 
 

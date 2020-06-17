@@ -1,12 +1,13 @@
 #include "jsonprimitives.h"
 
-const std::string DELIMITER = "\\#$";
+#define INTENT_CODE_INIT 10
+#define INTENT_CODE_STATUS 300
 
 void build_init_resp_message(json &j,
                              const std::string &tag,
                              const std::string &id,
                              const std::string &version) {
-    j["intent_code"] = 10;
+    j["intent_code"] = INTENT_CODE_INIT;
     j["tag"] = tag;
     j["data"]["fleet_map"]["id"] = id;
     j["data"]["fleet_map"]["version"] = version;
@@ -26,9 +27,9 @@ void build_status_resp_message(json &j,
                                const float &x_loc, const float &y_loc,
                                const float &x_target, const float &y_target,
                                const short &status_code,
-                               const short battery_level,
+                               const short &battery_level,
                                const bool &sensor_feedback_code) {
-    j["intent_code"] = 300;
+    j["intent_code"] = INTENT_CODE_STATUS;
     j["tag"] = tag;
     j["data"]["location"] = {x_loc, y_loc};
     j["data"]["target"] = {x_target, y_target};

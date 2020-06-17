@@ -130,7 +130,7 @@ clean: CMakeFiles/uninstall.dir/clean
 CMakeFiles/lib.dir/all:
 	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/depend
 	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles --progress-num=5,6 "Built target lib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles --progress-num=3,4,5 "Built target lib"
 .PHONY : CMakeFiles/lib.dir/all
 
 # Include target in all.
@@ -140,7 +140,7 @@ all: CMakeFiles/lib.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/lib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/lib.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles 0
 .PHONY : CMakeFiles/lib.dir/rule
@@ -167,7 +167,7 @@ clean: CMakeFiles/lib.dir/clean
 CMakeFiles/hmi_node_server.dir/all: CMakeFiles/lib.dir/all
 	$(MAKE) -f CMakeFiles/hmi_node_server.dir/build.make CMakeFiles/hmi_node_server.dir/depend
 	$(MAKE) -f CMakeFiles/hmi_node_server.dir/build.make CMakeFiles/hmi_node_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles --progress-num=3,4 "Built target hmi_node_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles --progress-num=1,2 "Built target hmi_node_server"
 .PHONY : CMakeFiles/hmi_node_server.dir/all
 
 # Include target in all.
@@ -177,7 +177,7 @@ all: CMakeFiles/hmi_node_server.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/hmi_node_server.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/hmi_node_server.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles 0
 .PHONY : CMakeFiles/hmi_node_server.dir/rule
@@ -194,43 +194,6 @@ CMakeFiles/hmi_node_server.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/hmi_node_server.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/hmi_node_client.dir
-
-# All Build rule for target.
-CMakeFiles/hmi_node_client.dir/all:
-	$(MAKE) -f CMakeFiles/hmi_node_client.dir/build.make CMakeFiles/hmi_node_client.dir/depend
-	$(MAKE) -f CMakeFiles/hmi_node_client.dir/build.make CMakeFiles/hmi_node_client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles --progress-num=1,2 "Built target hmi_node_client"
-.PHONY : CMakeFiles/hmi_node_client.dir/all
-
-# Include target in all.
-all: CMakeFiles/hmi_node_client.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/hmi_node_client.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/hmi_node_client.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/riccardochiaretti/alba_v2_hmi/src/build-hmi_node-Desktop-Debug/CMakeFiles 0
-.PHONY : CMakeFiles/hmi_node_client.dir/rule
-
-# Convenience name for target.
-hmi_node_client: CMakeFiles/hmi_node_client.dir/rule
-
-.PHONY : hmi_node_client
-
-# clean rule for target.
-CMakeFiles/hmi_node_client.dir/clean:
-	$(MAKE) -f CMakeFiles/hmi_node_client.dir/build.make CMakeFiles/hmi_node_client.dir/clean
-.PHONY : CMakeFiles/hmi_node_client.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/hmi_node_client.dir/clean
 
 .PHONY : clean
 
